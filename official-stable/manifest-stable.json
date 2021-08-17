@@ -11,7 +11,7 @@
                 "version": "9.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/auto-organize/auto-organize_9.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/auto-organize/auto-organize_9.0.0.0.zip",
                 "checksum": "ff29ac3cbe05d208b6af94cd6d9dea39",
                 "timestamp": "2020-12-05T22:31:12Z"
             },
@@ -19,7 +19,7 @@
                 "version": "8.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/auto-organize/auto-organize_8.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/auto-organize/auto-organize_8.0.0.0.zip",
                 "checksum": "460bbb45e556464a8476b18e41c097f5",
                 "timestamp": "2020-07-20T01:30:25Z"
             }
@@ -37,7 +37,7 @@
                 "version": "5.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_5.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/bookshelf/bookshelf_5.0.0.0.zip",
                 "checksum": "2063fb8ab317b8d77b200fde41eb5e1e",
                 "timestamp": "2020-12-05T22:03:13Z"
             },
@@ -45,7 +45,7 @@
                 "version": "4.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_4.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/bookshelf/bookshelf_4.0.0.0.zip",
                 "checksum": "fc9f76c0815d766491e5b0f30ede55ed",
                 "timestamp": "2020-07-20T01:30:33Z"
             }
@@ -63,7 +63,7 @@
                 "version": "9.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/email/email_9.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/email/email_9.0.0.0.zip",
                 "checksum": "cfe7afc00f3fbd6d6ab8244d7ff968ce",
                 "timestamp": "2020-12-05T22:20:32Z"
             },
@@ -71,7 +71,7 @@
                 "version": "7.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/email/email_7.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/email/email_7.0.0.0.zip",
                 "checksum": "680ca511d8ad84923cb04f024fd8eb19",
                 "timestamp": "2020-07-20T01:30:40Z"
             }
@@ -89,7 +89,7 @@
                 "version": "6.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/fanart/fanart_6.0.0.0.zip",
                 "checksum": "ee4360bfcc8722d5a3a54cfe7eef640f",
                 "timestamp": "2020-12-05T22:25:43Z"
             },
@@ -97,7 +97,7 @@
                 "version": "5.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_5.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/fanart/fanart_5.0.0.0.zip",
                 "checksum": "f842f7d65d23f377761c907d40b89647",
                 "timestamp": "2020-07-20T01:30:48Z"
             }
@@ -115,7 +115,7 @@
                 "version": "7.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/gotify-notification/gotify-notification_7.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/gotify-notification/gotify-notification_7.0.0.0.zip",
                 "checksum": "7c5ff9e8792c8cdee7e8a2aaeb6cc093",
                 "timestamp": "2020-07-20T01:30:56Z"
             }
@@ -133,7 +133,7 @@
                 "version": "6.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/kodi-sync-queue/kodi-sync-queue_6.0.0.0.zip",
                 "checksum": "787c856c0d2ad2224cdd8b3094cf0329",
                 "timestamp": "2020-12-05T22:10:37Z"
             },
@@ -141,7 +141,7 @@
                 "version": "5.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_5.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/kodi-sync-queue/kodi-sync-queue_5.0.0.0.zip",
                 "checksum": "08285397aecd93ea64a4f15d38b1bd7b",
                 "timestamp": "2020-07-20T01:31:22Z"
             }
@@ -159,7 +159,7 @@
                 "version": "11.0.0.0",
                 "changelog": "Fix case-sensitive username check\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_11.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/ldap-authentication/ldap-authentication_11.0.0.0.zip",
                 "checksum": "4da8f87c4746cba13f8103dfb974ca70",
                 "timestamp": "2021-04-15T09:03:43Z"
             },
@@ -167,7 +167,7 @@
                 "version": "10.0.0.0",
                 "changelog": "Update for 10.7 support\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_10.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/ldap-authentication/ldap-authentication_10.0.0.0.zip",
                 "checksum": "62e7e1cd3ffae0944c14750a3c90df4f",
                 "timestamp": "2020-12-05T19:48:10Z"
             },
@@ -175,7 +175,7 @@
                 "version": "9.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_9.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/ldap-authentication/ldap-authentication_9.0.0.0.zip",
                 "checksum": "7f2f83587a65a43ebf168e4058421463",
                 "timestamp": "2020-07-22T15:42:57Z"
             },
@@ -183,7 +183,7 @@
                 "version": "8.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_8.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/ldap-authentication/ldap-authentication_8.0.0.0.zip",
                 "checksum": "8af8cee62717d63577f8b1e710839415",
                 "timestamp": "2020-07-20T01:31:30Z"
             }
@@ -196,13 +196,13 @@
         "overview": "Live TV plugin for NextPVR",
         "owner": "jellyfin",
         "category": "LiveTV",
-        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-nextpvr.png",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/images/jellyfin-plugin-nextpvr.png",
         "versions": [
             {
                 "version": "6.0.0.0",
                 "changelog": "### New features and improvements ###\n- chore: plugin images (#24) @h1dden-da3m0n\n- Increase sid security (#19) @emveepee\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#22) @dependabot\n\n### CI & build changes ###\n- Update ci (#26) @h1dden-da3m0n\n- chore(ci): builds, releas drafter and more (#21) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- remove jQuery and update to es6 (#25) @grafixeyehero",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/nextpvr/nextpvr_6.0.0.0.zip",
                 "checksum": "85b692a6d0c3cf897867cbae31dffcaa",
                 "timestamp": "2021-07-20T20:56:25Z"
             },
@@ -210,7 +210,7 @@
                 "version": "5.0.0.0",
                 "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_5.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/nextpvr/nextpvr_5.0.0.0.zip",
                 "checksum": "d70f694d14bf9462ba2b2ebe110068d3",
                 "timestamp": "2020-12-05T22:24:03Z"
             },
@@ -218,7 +218,7 @@
                 "version": "4.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_4.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/nextpvr/nextpvr_4.0.0.0.zip",
                 "checksum": "b15949d895ac5a8c89496581db350478",
                 "timestamp": "2020-07-20T01:31:38Z"
             }
@@ -236,7 +236,7 @@
                 "version": "10.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_10.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/open-subtitles/open-subtitles_10.0.0.0.zip",
                 "checksum": "ed99d03ec463bf15fca1256a113f57b4",
                 "timestamp": "2020-12-05T21:56:19Z"
             },
@@ -244,7 +244,7 @@
                 "version": "9.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_9.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/open-subtitles/open-subtitles_9.0.0.0.zip",
                 "checksum": "16789b26497cea0509daf6b18c579340",
                 "timestamp": "2020-07-20T01:32:00Z"
             }
@@ -262,7 +262,7 @@
                 "version": "10.0.0.0",
                 "changelog": "* Fix query to PlayActivity endpoint on User Playback Report (#35) @Stampede10343 * Feature/client timezone awareness (#37) @Stampede10343\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_10.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/playback-reporting/playback-reporting_10.0.0.0.zip",
                 "checksum": "b56ad6715336a363d4477eb40d668491",
                 "timestamp": "2021-04-12T14:12:57Z"
             },
@@ -270,7 +270,7 @@
                 "version": "9.0.0.0",
                 "changelog": "Add authentication to plugin endpoints\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_9.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/playback-reporting/playback-reporting_9.0.0.0.zip",
                 "checksum": "ca323b3dcb2cb86cc2e72a7a0f1eee22",
                 "timestamp": "2020-12-05T22:15:48Z"
             },
@@ -278,7 +278,7 @@
                 "version": "8.0.0.0",
                 "changelog": "Add authentication to plugin endpoints\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_8.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/playback-reporting/playback-reporting_8.0.0.0.zip",
                 "checksum": "58644c505586542ef0b8b65e2f704bd1",
                 "timestamp": "2020-11-18T03:01:51Z"
             },
@@ -286,7 +286,7 @@
                 "version": "7.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_7.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/playback-reporting/playback-reporting_7.0.0.0.zip",
                 "checksum": "6a361ef33bca97f9155856d02ff47380",
                 "timestamp": "2020-07-20T01:32:09Z"
             }
@@ -304,7 +304,7 @@
                 "version": "6.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/pushbullet/pushbullet_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/pushbullet/pushbullet_6.0.0.0.zip",
                 "checksum": "248cf3d56644f1d909e75aaddbdfb3a6",
                 "timestamp": "2020-12-06T02:47:53Z"
             },
@@ -312,7 +312,7 @@
                 "version": "5.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/pushbullet/pushbullet_5.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/pushbullet/pushbullet_5.0.0.0.zip",
                 "checksum": "dabbdd86328b2922a69dfa0c9e1c8343",
                 "timestamp": "2020-07-20T01:32:17Z"
             }
@@ -330,7 +330,7 @@
                 "version": "4.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/pushover/pushover_4.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/pushover/pushover_4.0.0.0.zip",
                 "checksum": "56a0da16c7e48cc184987737b7e155dd",
                 "timestamp": "2020-07-20T01:32:25Z"
             }
@@ -343,13 +343,13 @@
         "overview": "Generate reports of your media library",
         "owner": "jellyfin",
         "category": "General",
-        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-reports.png",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/images/jellyfin-plugin-reports.png",
         "versions": [
             {
                 "version": "12.0.0.0",
                 "changelog": "Fix Jellyfin 10.7 compatibility\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_12.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/reports/reports_12.0.0.0.zip",
                 "checksum": "cb16b92a8e0dc19f92eb0f46b3a64936",
                 "timestamp": "2021-06-19T17:23:15Z"
             },
@@ -357,7 +357,7 @@
                 "version": "11.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_11.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/reports/reports_11.0.0.0.zip",
                 "checksum": "d71bc6a4c008e58ee70ad44c83bfd310",
                 "timestamp": "2020-12-05T22:00:46Z"
             },
@@ -365,7 +365,7 @@
                 "version": "10.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_10.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/reports/reports_10.0.0.0.zip",
                 "checksum": "3917e75839337475b42daf2ba0b5bd7b",
                 "timestamp": "2020-10-19T19:30:41Z"
             },
@@ -373,7 +373,7 @@
                 "version": "9.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_9.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/reports/reports_9.0.0.0.zip",
                 "checksum": "5b5ad8d885616a21e8d1e8eecf5ea979",
                 "timestamp": "2020-10-16T23:52:37Z"
             }
@@ -391,7 +391,7 @@
                 "version": "7.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/slack-notifications/slack-notifications_7.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/slack-notifications/slack-notifications_7.0.0.0.zip",
                 "checksum": "1d5330a77ce7b2a9ac8e5d58088a012c",
                 "timestamp": "2020-12-05T22:40:02Z"
             },
@@ -399,7 +399,7 @@
                 "version": "6.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/slack-notifications/slack-notifications_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/slack-notifications/slack-notifications_6.0.0.0.zip",
                 "checksum": "ede4cbe064542d1ecccc5823921bee4b",
                 "timestamp": "2020-07-20T01:32:50Z"
             }
@@ -417,7 +417,7 @@
                 "version": "7.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_7.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tmdb-box-sets/tmdb-box-sets_7.0.0.0.zip",
                 "checksum": "1551792e6af4d36f2cead01153c73cf0",
                 "timestamp": "2020-12-05T22:07:21Z"
             },
@@ -425,7 +425,7 @@
                 "version": "6.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tmdb-box-sets/tmdb-box-sets_6.0.0.0.zip",
                 "checksum": "b92b68a922c5fcbb8f4d47b8601b01b6",
                 "timestamp": "2020-07-20T01:32:58Z"
             }
@@ -438,13 +438,13 @@
         "overview": "Record your watched media with Trakt",
         "owner": "jellyfin",
         "category": "General",
-        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-trakt.png",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/images/jellyfin-plugin-trakt.png",
         "versions": [
             {
                 "version": "12.0.0.0",
                 "changelog": "- remove jQuery and update to es6 (#78) @grafixeyehero\n- Use Trakt last watched date when importing (#63) @netpok\n- Use System.Text.Json (#61) @Ullmie02\n- chore: plugin images (#76) @h1dden-da3m0n\n- Fix save button label (#72) @Vagab0nd\n- Fix AUTHED_API_POST_LIMIT (#65) @dgalli1\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#68) @dependabot\n- chore(ci): builds, releas drafter and more (#66) @h1dden-da3m0n\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_12.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/trakt/trakt_12.0.0.0.zip",
                 "checksum": "f910593ca1ad68f1a90a08fa255281b7",
                 "timestamp": "2021-06-14T05:27:08Z"
             },
@@ -452,7 +452,7 @@
                 "version": "11.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_11.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/trakt/trakt_11.0.0.0.zip",
                 "checksum": "2257ccde1e39114644a27e0966a0bf2d",
                 "timestamp": "2020-12-05T19:56:12Z"
             },
@@ -460,7 +460,7 @@
                 "version": "10.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_10.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/trakt/trakt_10.0.0.0.zip",
                 "checksum": "ab67e6b59ea2e7860a6a3ff7b8452759",
                 "timestamp": "2020-07-20T01:33:06Z"
             }
@@ -478,7 +478,7 @@
                 "version": "8.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_8.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tvheadend/tvheadend_8.0.0.0.zip",
                 "checksum": "64be4d0b4118e0a59a290c187338b4f0",
                 "timestamp": "2021-04-15T08:56:26Z"
             },
@@ -486,7 +486,7 @@
                 "version": "7.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_7.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tvheadend/tvheadend_7.0.0.0.zip",
                 "checksum": "1abbfce737b6962f4b1b2255dc63e932",
                 "timestamp": "2021-01-05T16:20:33Z"
             },
@@ -494,7 +494,7 @@
                 "version": "6.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tvheadend/tvheadend_6.0.0.0.zip",
                 "checksum": "143c34fd70d7173b8912cc03ce4b517d",
                 "timestamp": "2020-07-20T01:33:15Z"
             }
@@ -506,14 +506,14 @@
         "description": "This plugin will track all media changes while any Infuse clients are offline to decrease sync times when logging back in to your server.",
         "overview": "Blazing fast indexing for Infuse",
         "owner": "Firecore LLC",
-        "imageURL": "https://raw.githubusercontent.com/firecore/InfuseSync/master/InfuseSync/thumb.png",
+        "imageURL": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/InfuseSync/thumb.png",
         "category": "General",
         "versions": [
             {
                 "version": "1.3.3.0",
                 "changelog": "Jellyfin 10.7.0 support, packaging fix.\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.3.3/InfuseSync-jellyfin-1.3.3.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/InfuseSync/InfuseSync-jellyfin-1.3.3.zip",
                 "checksum": "e9262894968407f15fc2d92375de8483",
                 "timestamp": "2021-03-17T06:42:00Z"
             },
@@ -521,7 +521,7 @@
                 "version": "1.3.2.0",
                 "changelog": "Jellyfin 10.7.0 support, fixes for Jellyfin endpoints and authorization.\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/infusesync/InfuseSync-jellyfin-1.3.2.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/InfuseSync/InfuseSync-jellyfin-1.3.2.zip",
                 "checksum": "520ffde8b075070cff5185d7453485a0",
                 "timestamp": "2021-01-05T08:00:00Z"
             },
@@ -529,7 +529,7 @@
                 "version": "1.2.4.0",
                 "changelog": "New Playlist support.\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.4/InfuseSync-jellyfin-1.2.4.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/InfuseSync/InfuseSync-jellyfin-1.2.4.zip",
                 "checksum": "7adde11b8c8404fd2923f59d98fb1a30",
                 "timestamp": "2020-10-12T08:00:00Z"
             },
@@ -537,7 +537,7 @@
                 "version": "1.2.1.3",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.3/InfuseSync-jellyfin-1.2.3.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/InfuseSync/InfuseSync-jellyfin-1.2.3.zip",
                 "checksum": "d8e2c5fe736a302097bb3bac3d04b1c4",
                 "timestamp": "2020-09-18T12:19:00Z"
             },
@@ -545,7 +545,7 @@
                 "version": "1.2.1.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.1/InfuseSync-jellyfin-1.2.1.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/InfuseSync/InfuseSync-jellyfin-1.2.1.zip",
                 "checksum": "1a853e926cc422f5d79d398d9ae18ee8",
                 "timestamp": "2020-08-21T10:48:00Z"
             },
@@ -553,7 +553,7 @@
                 "version": "1.2.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.0/InfuseSync-jellyfin-1.2.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/InfuseSync/InfuseSync-jellyfin-1.2.0.zip",
                 "checksum": "2d3c7859852695a7f05adc6d3fcbc783",
                 "timestamp": "2020-07-20T11:51:00Z"
             }
@@ -566,13 +566,13 @@
         "overview": "MusicBrainz Cover Art Archive",
         "owner": "jellyfin",
         "category": "Metadata",
-        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-coverartarchive.png",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/images/jellyfin-plugin-coverartarchive.png",
         "versions": [
             {
                 "version": "3.0.0.0",
                 "changelog": "### New features and improvements ###\n- chore: plugin images (#5) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#4) @dependabot\n\n### CI & build changes ###\n- Update ci (#9) @h1dden-da3m0n\n- Create release prep PR on release draft update (#7) @oddstr13\n- Add analyzers and remove all warnings (#3) @crobibero\n- Let there be CI (#2) @oddstr13",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_3.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/cover-art-archive/cover-art-archive_3.0.0.0.zip",
                 "checksum": "ca0ae1e2575cae9cb8d9f0164b8ab92c",
                 "timestamp": "2021-07-28T20:36:41Z"
             },
@@ -580,7 +580,7 @@
                 "version": "2.0.0.0",
                 "changelog": "changelog\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_2.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/cover-art-archive/cover-art-archive_2.0.0.0.zip",
                 "checksum": "bea8fa4a37b3e7ed74e22266e7597a68",
                 "timestamp": "2020-12-06T02:51:03Z"
             },
@@ -588,7 +588,7 @@
                 "version": "1.0.0.3",
                 "changelog": "changelog\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_1.0.0.3.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/cover-art-archive/cover-art-archive_1.0.0.3.zip",
                 "checksum": "c502a5c54b168810614c1c40709b9598",
                 "timestamp": "2020-08-06T21:21:22Z"
             }
@@ -601,13 +601,13 @@
         "overview": "Get TV metadata from TheTvdb",
         "owner": "jellyfin",
         "category": "Metadata",
-        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvdb.png",
+        "imageUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/images/jellyfin-plugin-tvdb.png",
         "versions": [
             {
                 "version": "6.0.0.0",
                 "changelog": "### Bug Fixes ###\n- Changed NormalizationForm to FormC (#45) @sushilicious\n\n### CI & build changes ###\n- Update ci (#42) @h1dden-da3m0n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_6.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/thetvdb/thetvdb_6.0.0.0.zip",
                 "checksum": "0d2bcfa13da7e10efa8874b445f92ba6",
                 "timestamp": "2021-08-07T21:24:50Z"
             },
@@ -615,7 +615,7 @@
                 "version": "5.0.0.0",
                 "changelog": "* fix catching exceptions\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_5.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/thetvdb/thetvdb_5.0.0.0.zip",
                 "checksum": "ad07e5890042799642e4056ebf5620c0",
                 "timestamp": "2021-05-14T12:01:21Z"
             },
@@ -623,7 +623,7 @@
                 "version": "4.0.0.0",
                 "changelog": "Fix getting metadata\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_4.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/thetvdb/thetvdb_4.0.0.0.zip",
                 "checksum": "97e82c193bf8c70c28158bdd4abb638d",
                 "timestamp": "2021-04-18T19:10:58Z"
             },
@@ -631,7 +631,7 @@
                 "version": "3.0.0.0",
                 "changelog": "Fix getting metadata",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_3.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/thetvdb/thetvdb_3.0.0.0.zip",
                 "checksum": "108bb40691f7b08ebd28f78afd7d196f",
                 "timestamp": "2021-03-11T05:41:03Z"
             },
@@ -639,7 +639,7 @@
                 "version": "2.0.0.0",
                 "changelog": "Remove from Jellyfin core.\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_2.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/thetvdb/thetvdb_2.0.0.0.zip",
                 "checksum": "e46cee334476a1b475e5c553171c4cb6",
                 "timestamp": "2020-12-16T20:03:28Z"
             },
@@ -647,7 +647,7 @@
                 "version": "1.0.0.0",
                 "changelog": "Remove from Jellyfin core.\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_1.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/thetvdb/thetvdb_1.0.0.0.zip",
                 "checksum": "5a3dca5c0db4824d83bfd4e7e2b7bf11",
                 "timestamp": "2020-12-06T02:56:40Z"
             }
@@ -665,7 +665,7 @@
                 "version": "3.0.0.0",
                 "changelog": "* Explicit decompress no longer needed (#4) @oddstr13 * Let there be CI (#3) @oddstr13\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_3.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/anidb/anidb_3.0.0.0.zip",
                 "checksum": "574104cf6f64989214dbc1680861fa71",
                 "timestamp": "2021-03-12T23:32:20Z"
             },
@@ -673,7 +673,7 @@
                 "version": "2.0.0.0",
                 "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_2.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/anidb/anidb_2.0.0.0.zip",
                 "checksum": "9b69500943308d01e0e2e97432343468",
                 "timestamp": "2021-03-10T19:43:49Z"
             }
@@ -691,7 +691,7 @@
                 "version": "2.0.0.0",
                 "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_2.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/anilist/anilist_2.0.0.0.zip",
                 "checksum": "3d3ab2231231e981f42f46745dd4a3fd",
                 "timestamp": "2021-03-10T19:47:04Z"
             }
@@ -709,7 +709,7 @@
                 "version": "2.0.0.0",
                 "changelog": "- Split out from the Anime plugin - Remove dependency on DependencyInjection\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anisearch/anisearch_2.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/anisearch/anisearch_2.0.0.0.zip",
                 "checksum": "761b4c98926541c79ed2d24be04f4a1f",
                 "timestamp": "2021-03-10T19:54:53Z"
             }
@@ -727,7 +727,7 @@
                 "version": "2.0.0.0",
                 "changelog": "- Split out from the Anime plugin - Remove dependency on DependencyInjection\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kitsu/kitsu_2.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/kitsu/kitsu_2.0.0.0.zip",
                 "checksum": "0989ef4483639edb9a4ec266905f386a",
                 "timestamp": "2021-03-10T20:00:06Z"
             }
@@ -745,7 +745,7 @@
                 "version": "7.0.0.0",
                 "changelog": "Update api client\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvmaze/tvmaze_7.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tvmaze/tvmaze_7.0.0.0.zip",
                 "checksum": "01454308f6db571b1db6017394789108",
                 "timestamp": "2021-04-12T20:38:30Z"
             },
@@ -753,7 +753,7 @@
                 "version": "5.0.0.0",
                 "changelog": "Get additional image types\n",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_5.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tv-maze/tv-maze_5.0.0.0.zip",
                 "checksum": "509a85e40b1d1ac36eef45673deaf606",
                 "timestamp": "2020-12-06T02:51:56Z"
             },
@@ -761,7 +761,7 @@
                 "version": "4.0.0.0",
                 "changelog": "Get additional image types\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_4.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tv-maze/tv-maze_4.0.0.0.zip",
                 "checksum": "58ee9ab3f129151bdfff033ad889ad87",
                 "timestamp": "2020-11-24T14:44:37Z"
             },
@@ -769,7 +769,7 @@
                 "version": "3.0.0.0",
                 "changelog": "Remove unused dependencies \n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_3.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tv-maze/tv-maze_3.0.0.0.zip",
                 "checksum": "f3b2c70b3e136fb15c917e4420f4fdec",
                 "timestamp": "2020-11-09T14:32:56Z"
             },
@@ -777,7 +777,7 @@
                 "version": "2.0.0.0",
                 "changelog": "Remove unused dependencies \n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_2.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tv-maze/tv-maze_2.0.0.0.zip",
                 "checksum": "c7662ae8ae52ce8a4e8d685d55f36e80",
                 "timestamp": "2020-11-09T02:33:11Z"
             },
@@ -785,7 +785,7 @@
                 "version": "1.0.0.0",
                 "changelog": "Initial release.\n",
                 "targetAbi": "10.6.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_1.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/tv-maze/tv-maze_1.0.0.0.zip",
                 "checksum": "c90eee48c12f2c07880b4b28e507fd14",
                 "timestamp": "2020-11-08T19:05:32Z"
             }
@@ -803,11 +803,11 @@
                 "version": "3.0.0.0",
                 "changelog": "- No changes",
                 "targetAbi": "10.7.0.0",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_3.0.0.0.zip",
+                "sourceUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/webhook/webhook_3.0.0.0.zip",
                 "checksum": "ad3b18dd68bedf4c49b634d630eb3146",
                 "timestamp": "2021-07-10T02:06:09Z"
             }
         ],
-        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-webhook.png"
+        "imageUrl": "https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@20210817a/official-stable/images/jellyfin-plugin-webhook.png"
     }
 ]
