@@ -1,18 +1,22 @@
+> 更新日期：2022年1月19日
+
 # Jellyfin插件仓库镜像
 
 ## 1. 相关软件及版权申明
 
 [Jellyfin](https://github.com/jellyfin/jellyfin) 是一个免费的媒体系统，可让您控制管理和流式传输媒体。您可以在 [homepage](https://jellyfin.media/)上找到更多的相关讯息。
 
-该仓库镜像了2021年08月17日的[官方仓库](https://repo.jellyfin.org/releases/plugin/manifest-stable.json)内涵的所有插件，并上传至本仓库。
+该仓库镜像了 ~~ 2021年08月17日 ~~ 2022年1月19日的[官方仓库](https://repo.jellyfin.org/releases/plugin/manifest-stable.json)内含的所有插件，并上传至本仓库。
 
-加速方式采用[jsDlivr](https://www.jsdelivr.com/)的Github仓库加速功能。
+~~加速方式采用[jsDlivr](https://www.jsdelivr.com/)的Github仓库加速功能。~~
+
+2021年12月20日大陆CDN网宿断开jsd对国内的连接，目前本仓库将仍保持jsd加速，同时新增本人自提供的cdn作为后备保证。
 
 仓库内所有插件版权归各自的作者所有，若有侵犯到您的权益，请[联系我](mailto:LxnChan@Outlook.com)删除。
 
-豆瓣刮削插件同步自[jellyfin-plugin-douban](https://github.com/Libitum/jellyfin-plugin-douban)，所有权利归属于作者所有。
+豆瓣刮削插件同步自[jellyfin-plugin-douban](https://github.com/Libitum/jellyfin-plugin-douban)，所有权利归属于作者所有。截至2022年01月19日该插件尚未更新，保持原有版本不变。
 
-**该加速仓库可用于jsDlivr可用的任何国家和地区，但主要是服务因各种情况下导致网络不佳的中国。若您可以直接连接到Jellyfin的官方仓库请使用官方源！**
+~~**该加速仓库可用于jsDlivr可用的任何国家和地区，但主要是服务因各种情况下导致网络不佳的中国。若您可以直接连接到Jellyfin的官方仓库请使用官方源！**~~
 
 ## 2. 官方稳定仓库使用方式
 
@@ -22,7 +26,7 @@
 https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@{VersionTag}/official-stable/manifest-stable.json
 ```
 
-> 其中VersionTag为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用Latest版本。
+> 其中{VersionTag}为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用Latest版本。
 
 ## 3. 豆瓣刮削插件
 
