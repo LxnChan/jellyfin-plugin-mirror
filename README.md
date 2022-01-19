@@ -6,7 +6,7 @@
 
 [Jellyfin](https://github.com/jellyfin/jellyfin) 是一个免费的媒体系统，可让您控制管理和流式传输媒体。您可以在 [homepage](https://jellyfin.media/)上找到更多的相关讯息。
 
-该仓库镜像了 ~~2021年08月17日~~ 2022年1月19日的[官方仓库](https://repo.jellyfin.org/releases/plugin/manifest-stable.json)内含的所有插件，并上传至本仓库。
+该仓库镜像了 ~~2021年08月17日~~ 2022年1月19日的[官方仓库](https://repo.jellyfin.org/releases/plugin/manifest-stable.json)内含的所有插件，并上传至本仓库。注意删除了部分插件的过于古旧的版本，对于这些旧版本目前仍停留在本仓库，可至`official-stable-old`文件夹寻找。
 
 ~~加速方式采用[jsDelivr](https://www.jsdelivr.com/)的Github仓库加速功能。~~
 
