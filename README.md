@@ -38,7 +38,7 @@ https://flow.lxnchan.cn/jellyfin-plugin-mirror/manifest-stable-flow.json
 
 ## 3. 豆瓣刮削插件
 
-主界面→控制台→插件→存储库，填写如下地址
+主界面→控制台→插件→存储库，填写如下地址（任选其一）
 
 ```link
 # jsDelivr 加速
@@ -49,6 +49,10 @@ https://flow.lxnchan.cn/jellyfin-plugin-mirror/douban/manifest-flow.json
 ```
 
 > 其中VersionTag为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用20210817c版本。
+
+## 4. 支持我
+
+多访问访问我的blog`https://lxnchan.cn`就行，侧边栏有赞助二维码，感兴趣就扫，不感兴趣随便看看也行。
 
 # Mirror for Jellyfin Plugin Repo
 
