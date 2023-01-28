@@ -7,6 +7,9 @@ jobs:
     steps:
       - name: Checkingout
         uses: actions/checkout@v3
+      - name: Get Date
+        id: date
+        run: echo "::set-output name=date::$(date +'%Y%m%d')"
       - name: Fetch Official Repo
         run: |
           cd /mnt/
@@ -18,8 +21,10 @@ jobs:
           sudo rm $GITHUB_WORKSPACE/manifest-stable-jsd.json
           sudo mv /mnt/repo.jellyfin.org/releases/plugin $GITHUB_WORKSPACE/plugin
       - name: Update Manifest list
+        env: 
+          NDATE: ${{ steps.date.outputs.date }}
         run: |
-          NDATE=$(date +%Y%m%d)
+          # NDATE=$(date +%Y%m%d)
           sudo sed -i "s_repo.jellyfin.org/releases_cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@${NDATE}_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
           sudo sed -i "s_https://github.com_https://gh-proxy.arlxn.top/https://github.com_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
           sudo sed -i "s_https://raw.githubusercontent.com_https://gh-proxy.arlxn.top/https://raw.githubusercontent.com_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
@@ -32,7 +37,8 @@ jobs:
       - name: Publish Release
         env: 
           GTOKEN: ${{ secrets.GITHUBTOKEN }}
+          NDATE: ${{ steps.date.outputs.date }}
         run: | 
-          NDATE=$(date +%Y%m%d)
-          NDATEG=$(date +%Y-%m-%d)
+          # NDATE=$(date +%Y%m%d)
+          # NDATEG=$(date +%Y-%m-%d)
           curl -X POST -H "Accept: application/vnd.github+json" -H "Authorization: Bearer ${GTOKEN}" -H "X-GitHub-Api-Version: 2022-11-28" https://api.github.com/repos/LxnChan/jellyfin-plugin-mirror/releases -d '{"tag_name":"${NDATE}","target_commitish":"main","name":"${NDATEG} update.","body":"Update with bot.","draft":false,"prerelease":false,"generate_release_notes":false}'
