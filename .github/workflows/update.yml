@@ -28,6 +28,6 @@ jobs:
         uses: actions-js/push@master
         with:
           github_token: ${{ secrets.GITHUBTOKEN }}
-          message: 'autopublish ${date}'
+          message: "autopublish ${date}"
       # Push to Repo
       # Create a Release with name "NDATE"
