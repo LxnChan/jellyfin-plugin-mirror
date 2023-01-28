@@ -11,19 +11,19 @@ jobs:
         run: |
           NDATE=$(date +%Y%m%d)
           cd /mnt/
-          wget -r -p -np -nc -k -e robots=off --reject=htm,html,js,css --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69" https://repo.jellyfin.org/releases/plugin/
+          sudo wget -r -p -np -nc -k -e robots=off --reject=htm,html,js,css --user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 Edg/109.0.1518.69" https://repo.jellyfin.org/releases/plugin/
       - name: Delete&Upgrade Plugins
         run: |
           cd $GITHUB_WORKSPACE
-          rm -rf $GITHUB_WORKSPACE/plugin
-          rm $GITHUB_WORKSPACE/manifest-stable-jsd.json
-          mv /mnt/repo.jellyfin.org/releases/plugin $GITHUB_WORKSPACE/plugin
+          sudo rm -rf $GITHUB_WORKSPACE/plugin
+          sudo rm $GITHUB_WORKSPACE/manifest-stable-jsd.json
+          sudo mv /mnt/repo.jellyfin.org/releases/plugin $GITHUB_WORKSPACE/plugin
       - name: Update Json
         run: |
-          sed -i "s_repo.jellyfin.org/releases_cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@${NDATE}_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
-          sed -i "s_https://github.com_https://gh-proxy.arlxn.top/https://github.com_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
-          sed -i "s_https://raw.githubusercontent.com_https://gh-proxy.arlxn.top/https://raw.githubusercontent.com_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
-          cp "$GITHUB_WORKSPACE/plugin/manifest-stable.json" "$GITHUB_WORKSPACE/manifest-stable-jsd.json"
+          sudo sed -i "s_repo.jellyfin.org/releases_cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@${NDATE}_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
+          sudo sed -i "s_https://github.com_https://gh-proxy.arlxn.top/https://github.com_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
+          sudo sed -i "s_https://raw.githubusercontent.com_https://gh-proxy.arlxn.top/https://raw.githubusercontent.com_" "$GITHUB_WORKSPACE/plugin/manifest-stable.json"
+          sudo cp "$GITHUB_WORKSPACE/plugin/manifest-stable.json" "$GITHUB_WORKSPACE/manifest-stable-jsd.json"
       - name: Commit & Push changes
         uses: actions-js/push@master
         with:
