@@ -1,6 +1,10 @@
+## 有关更新：
+
+目前正在尝试使用Github Actions自动更新，也诚征collaborators维护该仓库、诚征赞助的CDN厂商。
+
 > 更新日期：2022年1月19日
 
-# Jellyfin插件仓库镜像
+# Jellyfin插件仓库加速镜像
 
 ## 1. 相关软件及版权申明
 
