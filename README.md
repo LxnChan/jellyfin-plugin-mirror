@@ -18,9 +18,9 @@
 
 ## 2. 官方稳定仓库使用方式
 
-主界面→控制台→插件→存储库，填写如下地址（任选其一）
+主界面→控制台→插件→存储库，**备份后删除原有仓库**，填写如下地址（任选其一）
 
-```link
+```plaintxt
 # 指定镜像的Release版本
 https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@{VersionTag}/plugin/manifest-stable-jsd.json
 
@@ -28,18 +28,18 @@ https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@{VersionTag}/plugin/m
 https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@latest/manifest-stable-jsd.json
 ```
 
-> 其中{VersionTag}为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用Latest版本。
+> 其中`{VersionTag}`为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用Latest版本。
 
 ## 3. 豆瓣刮削插件
 
 主界面→控制台→插件→存储库，填写如下地址（任选其一）
 
-```link
+```plaintxt
 # jsDelivr 加速
 https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@{VersionTag}/douban/manifest.json
 ```
 
-> 其中VersionTag为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用20210817c版本。
+> 其中`{VersionTag}`为[Release](https://github.com/LxnChan/jellyfin-plugin-mirror/releases)页面下的Tag版本号，建议使用20210817c版本。
 
 ## 4. 支持我
 
@@ -53,10 +53,10 @@ https://cdn.jsdelivr.net/gh/LxnChan/jellyfin-plugin-mirror@{VersionTag}/douban/m
 
 Jellyfin is a Free Software Media System that puts you in control of managing and streaming your media. You can find more information in the homepage.
 
-This Repo mirrors all the plugins contained in the official Repo on ~~August 17, 2021~~ January 19, 2022, and uploads them to this Repo.
+The repository fully automatically mirrors all plugins contained in the official repository and uploads them to this repository at 1am UTC every Monday.
 
-~~The acceleration method uses the Github repository acceleration function of jsDlivr.~~
+The acceleration method uses the Github repository acceleration function of jsDlivr.
 
 The copyrights of all plugins in the Repo belong to their respective authors. If your rights are violated, please contact me to delete them.
 
-~~**The accelerated warehouse can be used in any country and region where jsDlivr is available, but it mainly serves China where the network situation is worrying due to GFW. If you can directly connect to the official repository of Jellyfin, please use the official source!**~~
+**The accelerated warehouse can be used in any country and region where jsDlivr is available, but it mainly serves China where the network situation is worrying due to GFW. If you can directly connect to the official repository of Jellyfin, please use the official source!**
