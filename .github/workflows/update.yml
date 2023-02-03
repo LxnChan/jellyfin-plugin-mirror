@@ -1,6 +1,8 @@
 name: update-repo
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'
 jobs:
   updateJellyfinRepo:
     runs-on: ubuntu-20.04
@@ -31,11 +33,9 @@ jobs:
           sudo cp "$GITHUB_WORKSPACE/plugin/manifest-stable.json" "$GITHUB_WORKSPACE/manifest-stable-jsd.json"
       - name: Commit & Push changes
         uses: actions-js/push@master
-        env: 
-          NDATE: ${{ steps.date.outputs.date }}
         with:
           github_token: ${{ secrets.GITHUBTOKEN }}
-          message: "autopublish from bot ${NDATE}"
+          message: "autopush from bot"
       - name: Publish Release
         env: 
           GTOKEN: ${{ secrets.GITHUBTOKEN }}
