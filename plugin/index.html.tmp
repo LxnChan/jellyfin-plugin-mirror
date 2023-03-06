@@ -39,7 +39,7 @@
 <a href="jellyfin-plugin-tvheadend/index.html.tmp">jellyfin-plugin-tvheadend/</a>                         25-Mar-2020 16:18                   -
 <a href="kitsu/index.html.tmp">kitsu/</a>                                             13-Jun-2022 22:16                   -
 <a href="kodi-sync-queue/index.html.tmp">kodi-sync-queue/</a>                                   07-Aug-2022 12:57                   -
-<a href="ldap-authentication/index.html.tmp">ldap-authentication/</a>                               16-Jun-2022 22:47                   -
+<a href="ldap-authentication/index.html.tmp">ldap-authentication/</a>                               02-Mar-2023 18:39                   -
 <a href="nextpvr/index.html.tmp">nextpvr/</a>                                           07-Apr-2022 21:31                   -
 <a href="opds/index.html.tmp">opds/</a>                                              27-Feb-2022 22:03                   -
 <a href="open-subtitles/index.html.tmp">open-subtitles/</a>                                    28-Mar-2022 00:05                   -
@@ -61,7 +61,7 @@
 <a href="vgmdb/index.html.tmp">vgmdb/</a>                                             27-Mar-2022 21:08                   -
 <a href="webhook/index.html.tmp">webhook/</a>                                           28-Mar-2022 00:08                   -
 <a href="manifest-deprecated.json">manifest-deprecated.json</a>                           16-Oct-2020 23:53               73963
-<a href="manifest-stable.json">manifest-stable.json</a>                               11-Feb-2023 17:04               88524
+<a href="manifest-stable.json">manifest-stable.json</a>                               02-Mar-2023 18:39               89243
 <a href="manifest-unstable.json">manifest-unstable.json</a>                             07-Jan-2022 21:11             5725481
 <a href="manifest.json">manifest.json</a>                                      16-Oct-2020 23:53               73963
 </pre><hr></body>
