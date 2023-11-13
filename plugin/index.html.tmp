@@ -3,7 +3,7 @@
 <body>
 <h1>Index of /releases/plugin/</h1><hr><pre><a href="https://repo.jellyfin.org/releases/">../</a>
 <a href="anidb/index.html.tmp">anidb/</a>                                             11-May-2023 07:06                   -
-<a href="anilist/index.html.tmp">anilist/</a>                                           11-May-2023 07:06                   -
+<a href="anilist/index.html.tmp">anilist/</a>                                           10-Nov-2023 02:31                   -
 <a href="anime/index.html.tmp">anime/</a>                                             11-May-2023 07:06                   -
 <a href="anisearch/index.html.tmp">anisearch/</a>                                         11-May-2023 07:06                   -
 <a href="auto-organize/index.html.tmp">auto-organize/</a>                                     11-May-2023 07:06                   -
@@ -61,7 +61,7 @@
 <a href="vgmdb/index.html.tmp">vgmdb/</a>                                             27-Mar-2022 21:08                   -
 <a href="webhook/index.html.tmp">webhook/</a>                                           28-Mar-2022 00:08                   -
 <a href="manifest-deprecated.json">manifest-deprecated.json</a>                           16-Oct-2020 23:53               73963
-<a href="manifest-stable.json">manifest-stable.json</a>                               02-Jul-2023 17:32               90492
+<a href="manifest-stable.json">manifest-stable.json</a>                               10-Nov-2023 02:31               92788
 <a href="manifest-unstable.json">manifest-unstable.json</a>                             07-Jan-2022 21:11             5725481
 <a href="manifest.json">manifest.json</a>                                      16-Oct-2020 23:53               73963
 </pre><hr></body>
