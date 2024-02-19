@@ -1,1674 +1,1516 @@
 [
     {
-        "adult": 0,
-        "avgRating": 5,
+        "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
+        "name": "Bookshelf",
+        "description": "Supports several different metadata providers and options for organizing your collection.\n",
+        "overview": "Manage your books",
+        "owner": "jellyfin",
         "category": "Metadata",
-        "expDate": null,
-        "featureId": "Anime",
-        "guid": "a4df60c5-6ab4-412a-8f79-2cab93fb2bc5",
-        "id": 0,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Anime",
-        "overview": "Manage your anime in Jellyfin. This plugin supports several different metadata providers and options for organizing your collection.\n",
-        "owner": "jellyfin",
-        "packageId": 0,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Manage your Anime in Jellyfin",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
         "versions": [
             {
-                "checksum": "ad6db5175f4732308b5dd166f79a1c2d",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Anime",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-anime/jellyfin-plugin-anime_8.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-anime_8.0.0.0.zip",
-                "timestamp": "2020-03-29 06:06:58",
-                "versionStr": "8.0.0.0"
+                "version": "10.0.0.0",
+                "changelog": "- Add Unit tests for ComicInfo and ComicBookInfo formats (#70) @carif\n\n### New features and improvements ###\n- Add Comic Vine metadata provider (#81) @Pithaya\n- Add Google Books external id (#80) @Pithaya\n- Add unit tests for the Google Books providers (#78) @Pithaya\n- Improve title handling of epub files (#75) @carif\n\n### Bug Fixes ###\n- Update EpubMetadataImageProvider.cs (#66) @wuyu8512\n\n### Documentation updates ###\n- Fix typo and improve README formatting (#74) @carif\n\n### Dependency updates ###\n- Update xunit-dotnet monorepo to v2.5.3 (#82) @renovate",
+                "targetAbi": "10.8.13.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_10.0.0.0.zip",
+                "checksum": "769e4e19f4dde09a882797427dafe5f8",
+                "timestamp": "2024-01-18T00:55:20Z"
             },
             {
-                "checksum": "62c54985d3dabcb57997deb40cde4af7",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Anime",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-anime/jellyfin-plugin-anime_7.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-anime_7.0.0.0.zip",
-                "timestamp": "2020-03-20 18:03:08",
-                "versionStr": "7.0.0.0"
+                "version": "9.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Add development setup for Visual Studio Code (#64) @MinecraftPlaye\n- Use JsonSerializer.Deserialize overload that accepts a string (#65) @Bond-009\n\n### Dependency updates ###\n- chore(deps): update dependency sharpcompress to v0.32.2 (#62) @renovate\n- chore(deps): update dependency sharpcompress to v0.32.0 (#61) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#58) @h1dden-da3m0n",
+                "targetAbi": "10.8.3.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_9.0.0.0.zip",
+                "checksum": "f505fcc1a9cee9d173cc5d9893c9e08a",
+                "timestamp": "2022-08-07T12:43:43Z"
             },
             {
-                "checksum": "4e3db8180d57b59bb1533575334ea284",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Anime",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-anime/jellyfin-plugin-anime_6.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-anime_6.0.0.0.zip",
-                "timestamp": "2020-03-17 09:26:39",
-                "versionStr": "6.0.0.0"
+                "version": "8.0.0.0",
+                "changelog": "- chore(deps): bump release-drafter/release-drafter from 5.15.0 to 5.17.5 (#46) @dependabot\n- chore(deps): bump sharpcompress from 0.30.0 to 0.30.1 (#43) @dependabot\n- Add analyzers to project (#28) @crobibero\n\n### New features and improvements ###\n- Read date and language information from opf (#47) @MinecraftPlaye\n- Add ComicBookInfo metadata provider (#38) @MinecraftPlaye\n\n### Bug Fixes ###\n- Use proper NormalziationForm (#44) @crobibero\n\n### Code or Repo Maintenance ###\n- Update supported metadata providers and file types (#55) @MinecraftPlaye\n- Use meta ci (#54) @crobibero\n- Refactor opf metadata reader for readability (#45) @MinecraftPlaye\n- Update ruleset and fix build (#42) @crobibero\n\n### Documentation updates ###\n- Update supported metadata providers and file types (#55) @MinecraftPlaye\n\n### CI & build changes ###\n- Use meta ci (#54) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_8.0.0.0.zip",
+                "checksum": "01d46c5beb845257feee76f856079e60",
+                "timestamp": "2022-03-28T00:01:28Z"
             },
             {
-                "checksum": "095ac8d818b50f81f1d21285997d7ea6",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Anime",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-anime/jellyfin-plugin-anime_4.0.zip",
-                "targetFilename": "jellyfin-plugin-anime_4.0.zip",
-                "timestamp": "2019-08-06 14:31:15",
-                "versionStr": "4.0"
+                "version": "7.0.0.0",
+                "changelog": "- 10.8 support (#33) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_7.0.0.0.zip",
+                "checksum": "4f9577d2e8741b292e179e1e7c43cd31",
+                "timestamp": "2022-01-08T17:22:13Z"
             },
             {
-                "checksum": "37e870e8e6b6b64e6e1caadd76845b39",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Anime",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-anime/jellyfin-plugin-anime_3.0.zip",
-                "targetFilename": "jellyfin-plugin-anime_3.0.zip",
-                "timestamp": "2019-05-03 18:34:30",
-                "versionStr": "3.0"
+                "version": "6.0.0.0",
+                "changelog": "### New features and improvements ### - Expand ComicInfo support and add support for comic covers (#34) @MinecraftPlaye - Use System.Text.Json (#29) @daullmer ### Dependency updates ### - chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#32) @dependabot ### CI & build changes ### - chore(ci): builds, releas drafter and more (#31) @h1dden-da3m0n\n",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_6.0.0.0.zip",
+                "checksum": "0158783c8fba5044791263fba762907a",
+                "timestamp": "2021-10-31T02:05:24Z"
             },
             {
-                "checksum": "90a08e317ae7532bf1170214663170db",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Anime",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-anime/jellyfin-plugin-anime_2.0.zip",
-                "targetFilename": "jellyfin-plugin-anime_2.0.zip",
-                "timestamp": "2019-04-19 20:39:35",
-                "versionStr": "2.0"
+                "version": "5.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_5.0.0.0.zip",
+                "checksum": "2063fb8ab317b8d77b200fde41eb5e1e",
+                "timestamp": "2020-12-05T22:03:13Z"
             },
             {
-                "checksum": "941b3583526252d43b58ff75083cee48",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Anime",
-                "packageId": 0,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-anime/jellyfin-plugin-anime_1.0.1.zip",
-                "targetFilename": "jellyfin-plugin-anime_1.0.1.zip",
-                "timestamp": "2019-04-03 17:18:46",
-                "versionStr": "1.0.1"
+                "version": "4.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/bookshelf/bookshelf_4.0.0.0.zip",
+                "checksum": "fc9f76c0815d766491e5b0f30ede55ed",
+                "timestamp": "2020-07-20T01:30:33Z"
             }
         ]
     },
     {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "General",
-        "expDate": null,
-        "featureId": "Trakt",
-        "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
-        "id": 1,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Trakt",
-        "overview": "Record your watched media with Trakt.\n",
+        "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
+        "name": "Fanart",
+        "description": "Scrape poster images for movies, shows, and artists in your library.",
+        "overview": "Scrape poster images from Fanart",
         "owner": "jellyfin",
-        "packageId": 1,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Record your watched media with Trakt",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-fanart.png",
         "versions": [
             {
-                "checksum": "910b2b0db496a62b9b5042adb25a7f13",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_9.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_9.0.0.0.zip",
-                "timestamp": "2020-03-14 23:36:55",
-                "versionStr": "9.0.0.0"
+                "version": "10.0.0.0",
+                "changelog": "- chore(deps): update dependency microsoft.extensions.http to v6 (#41) @renovate\n\n### Bug Fixes ###\n- fix tv series no data (#38) @kdays\n\n### CI & build changes ###\n- fix: meta ci workflows (#39) @h1dden-da3m0n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_10.0.0.0.zip",
+                "checksum": "2c4c47db79ff8189f5798e1fd563eb52",
+                "timestamp": "2022-06-12T13:52:36Z"
             },
             {
-                "checksum": "3daafdc54d8828fdbe348edf1b0367ec",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_8.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_8.0.0.0.zip",
-                "timestamp": "2020-03-12 09:46:15",
-                "versionStr": "8.0.0.0"
+                "version": "9.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Extract DTOs and fix album parsing (#37) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Use meta ci (#35) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#35) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_9.0.0.0.zip",
+                "checksum": "6bdf8ed85c46172e500dd6e43b2b3d1c",
+                "timestamp": "2022-04-26T13:33:43Z"
             },
             {
-                "checksum": "5ecfe14e3d13884ccea4dba53aef9392",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_7.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_7.0.zip",
-                "timestamp": "2019-09-30 00:32:43",
-                "versionStr": "7.0"
+                "version": "8.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#30) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_8.0.0.0.zip",
+                "checksum": "285e6097dc350d9655eb1fefa844094b",
+                "timestamp": "2022-01-08T17:22:44Z"
             },
             {
-                "checksum": "9d124869b739a84e274648732cecedcb",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.3.6",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_6.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_6.0.zip",
-                "timestamp": "2019-09-27 16:41:05",
-                "versionStr": "6.0"
+                "version": "7.0.0.0",
+                "changelog": "- Remove jQuery and update to es6 (#26) @grafixeyehero\n- chore(ci): builds, releas drafter and more (#22) @h1dden-da3m0n\n- Use System.Text.Json (#21) @Ullmie02\n\n### New features and improvements ###\n- chore: plugin images (#25) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#23) @dependabot\n\n### CI & build changes ###\n- Update ci (#27) @h1dden-da3m0n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_7.0.0.0.zip",
+                "checksum": "9c778b54acc3a5f0f0cccb020b63e02b",
+                "timestamp": "2021-09-03T18:30:22Z"
             },
             {
-                "checksum": "b78dee11188950568ea548fdbc6749b7",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.3.6",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_5.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_5.0.zip",
-                "timestamp": "2019-07-08 18:13:33",
-                "versionStr": "5.0"
+                "version": "6.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_6.0.0.0.zip",
+                "checksum": "ee4360bfcc8722d5a3a54cfe7eef640f",
+                "timestamp": "2020-12-05T22:25:43Z"
             },
             {
-                "checksum": "450296cc21dbbcdd35f6c6abb494edfa",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_4.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_4.0.zip",
-                "timestamp": "2019-04-27 14:14:56",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "47fa576150228aa30adebf9f54a98117",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_3.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_3.0.zip",
-                "timestamp": "2019-04-24 16:12:16",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "e11597384af079ab567246dcc28c726d",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_2.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_2.0.zip",
-                "timestamp": "2019-04-19 20:39:38",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "92c0e1fb2f8acb482225a6de62e8aaf0",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Trakt",
-                "requiredVersionStr": "10.2.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-trakt/jellyfin-plugin-trakt_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-trakt_1.0.0.zip",
-                "timestamp": "2019-04-04 22:29:45",
-                "versionStr": "1.0.0"
+                "version": "5.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/fanart/fanart_5.0.0.0.zip",
+                "checksum": "f842f7d65d23f377761c907d40b89647",
+                "timestamp": "2020-07-20T01:30:48Z"
             }
         ]
     },
     {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Notifications",
-        "expDate": null,
-        "featureId": "Email",
-        "guid": "cfa0f7f4-4155-4d71-849b-d6598dc4c5bb",
-        "id": 3,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Email",
-        "overview": "Send SMTP email notifications",
+        "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
+        "name": "IMVDb",
+        "description": "Get Music Video metadata from IMVDb\n",
+        "overview": "Get Music Video metadata from IMVDb",
         "owner": "jellyfin",
-        "packageId": 3,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Send SMTP email notifications",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-imvdb.png",
         "versions": [
             {
-                "checksum": "ce43ccbbf689cef77794db01521b5272",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Email",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-emailnotifications/jellyfin-plugin-emailnotifications_4.0.zip",
-                "targetFilename": "jellyfin-plugin-emailnotifications_4.0.zip",
-                "timestamp": "2019-05-29 10:03:46",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "541ae35ffb78e9dc1f0623d8047fd8ad",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Email",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-emailnotifications/jellyfin-plugin-emailnotifications_3.0.zip",
-                "targetFilename": "jellyfin-plugin-emailnotifications_3.0.zip",
-                "timestamp": "2019-05-15 15:31:20",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "8ba39e64ff9a5e5615ff68477777fc79",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Email Notifications",
-                "packageId": 3,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-emailnotifications/jellyfin-plugin-emailnotifications_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-emailnotifications_1.0.0.zip",
-                "timestamp": "2019-03-11 21:30:02",
-                "versionStr": "1.0.0"
+                "version": "3.0.0.0",
+                "changelog": "- Use meta ci (#8) @crobibero\n\n### Code or Repo Maintenance ###\n- 10.8 support (#11) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/imvdb/imvdb_3.0.0.0.zip",
+                "checksum": "6848365c5e53f29854c12e7313220655",
+                "timestamp": "2022-03-28T00:02:33Z"
             }
         ]
     },
     {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "General",
-        "expDate": null,
-        "featureId": "Kodi Sync Queue",
         "guid": "771e19d6-5385-4caf-b35c-28a0e865cf63",
-        "id": 4,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
         "name": "Kodi Sync Queue",
-        "overview": "Sync queues to Kodi",
+        "description": "This plugin will track all media changes while Kodi clients are offline to decrease sync times.",
+        "overview": "Sync all media changes with Kodi clients",
         "owner": "jellyfin",
-        "packageId": 4,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Sync queues to Kodi",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "aee3854efafb56cd6b0b3dcd9ea5c298",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Kodi Sync Queue",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-kodisyncqueue/jellyfin-plugin-kodisyncqueue_4.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-kodisyncqueue_4.0.0.0.zip",
-                "timestamp": "2020-03-25 12:41:45",
-                "versionStr": "4.0.0.0"
-            },
-            {
-                "checksum": "93416e7c03de8720a632e46a0774f88f",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Kodi Sync Queue",
-                "requiredVersionStr": "10.4.3",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-kodisyncqueue/jellyfin-plugin-kodisyncqueue_3.0.zip",
-                "targetFilename": "jellyfin-plugin-kodisyncqueue_3.0.zip",
-                "timestamp": "2020-01-16 23:38:50",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "466442fb128733c178a9086fe06cf51a",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Kodi Sync Queue",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-kodisyncqueue/jellyfin-plugin-kodisyncqueue_2.0.zip",
-                "targetFilename": "jellyfin-plugin-kodisyncqueue_2.0.zip",
-                "timestamp": "2019-04-19 20:39:46",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "d2f38146d1d45b15b735ae332bc385a1",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Kodi Sync Queue",
-                "packageId": 4,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-kodisyncqueue/jellyfin-plugin-kodisyncqueue_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-kodisyncqueue_1.0.0.zip",
-                "timestamp": "2019-03-11 21:30:04",
-                "versionStr": "1.0.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Channel",
-        "expDate": null,
-        "featureId": "IPTV",
-        "guid": "a59b5c4b-05a8-488f-bfa8-7a63fffc7639",
-        "id": 5,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "IPTV",
-        "overview": "Enable IPTV support in Jellyfin",
-        "owner": "jellyfin",
-        "packageId": 5,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Enable IPTV support in Jellyfin",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "e1926016dfa029648000b6089f27f77f",
-                "classification": "Release",
-                "description": "Release",
-                "name": "IPTV",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-iptv/jellyfin-plugin-iptv_3.0.zip",
-                "targetFilename": "jellyfin-plugin-iptv_3.0.zip",
-                "timestamp": "2019-04-20 12:35:12",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "f5b4c849c93891b03c2b71e92759cedd",
-                "classification": "Release",
-                "description": "Release",
-                "name": "IPTV",
-                "packageId": 5,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-iptv/jellyfin-plugin-iptv_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-iptv_1.0.0.zip",
-                "timestamp": "2019-03-11 21:30:06",
-                "versionStr": "1.0.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "LiveTV",
-        "expDate": null,
-        "featureId": "TVHeadend",
-        "guid": "3fd018e5-5e78-4e58-b280-a0c068febee0",
-        "id": 6,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "TVHeadend",
-        "overview": "Manage TVHeadend from Jellyfin",
-        "owner": "jellyfin",
-        "packageId": 6,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Manage TVHeadend from Jellyfin",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "0d329b5acf8e6515fbaa35dae09ac3e4",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TVHeadend",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tvheadend/jellyfin-plugin-tvheadend_5.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-tvheadend_5.0.0.0.zip",
-                "timestamp": "2020-03-25 12:11:29",
-                "versionStr": "5.0.0.0"
-            },
-            {
-                "checksum": "eeaaef6fcc81e7fb09f075e4e24443b7",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TVHeadend",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tvheadend/jellyfin-plugin-tvheadend_4.0.zip",
-                "targetFilename": "jellyfin-plugin-tvheadend_4.0.zip",
-                "timestamp": "2020-03-01 10:33:56",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "80b6971676d83f26ed7e24e0949bd9b3",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TVHeadend",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tvheadend/jellyfin-plugin-tvheadend_3.0.zip",
-                "targetFilename": "jellyfin-plugin-tvheadend_3.0.zip",
-                "timestamp": "2019-05-14 21:06:37",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "1b357a5c638f635c6e86785ba6c1887b",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TVHeadend",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tvheadend/jellyfin-plugin-tvheadend_2.0.zip",
-                "targetFilename": "jellyfin-plugin-tvheadend_2.0.zip",
-                "timestamp": "2019-04-19 20:39:49",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "8924286b3dc3daae263f6734f5c016a4",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TVHeadend",
-                "packageId": 6,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tvheadend/jellyfin-plugin-tvheadend_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-tvheadend_1.0.0.zip",
-                "timestamp": "2019-03-11 21:30:09",
-                "versionStr": "1.0.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
         "category": "General",
-        "expDate": null,
-        "featureId": "Auto Organize",
-        "guid": "70b7b43b-471b-4159-b4be-56750c795499",
-        "id": 7,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Auto Organize",
-        "overview": "Automatically organize your media",
-        "owner": "jellyfin",
-        "packageId": 7,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Automatically organize your media",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
             {
-                "checksum": "0e8cc8ff46dbe15a79139be399ef75a0",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Auto Organize",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-autoorganize/jellyfin-plugin-autoorganize_6.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-autoorganize_6.0.0.0.zip",
-                "timestamp": "2020-03-24 19:56:11",
-                "versionStr": "6.0.0.0"
+                "version": "9.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix the scheduled task section name (part of #71) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Cleanup logging and naming (#71) @Shadowghost\n\n### Dependency updates ###\n- Upgrades LiteDB to v5 (part of #71) @Shadowghost\n\n### CI & build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n",
+                "targetAbi": "10.8.3.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_9.0.0.0.zip",
+                "checksum": "02c26bfa57c7daa0b302bc83a4e11ddf",
+                "timestamp": "2022-08-07T12:57:13Z"
             },
             {
-                "checksum": "7822204adc70fef7964d297db3b855eb",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Auto Organize",
-                "requiredVersionStr": "10.4.3",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-autoorganize/jellyfin-plugin-autoorganize_5.0.zip",
-                "targetFilename": "jellyfin-plugin-autoorganize_5.0.zip",
-                "timestamp": "2019-12-15 02:49:24",
-                "versionStr": "5.0"
+                "version": "8.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#66) @crobibero\n- Use meta ci (#62) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#62) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_8.0.0.0.zip",
+                "checksum": "095ebbdcf0f36bf43bb91b7e89c7f610",
+                "timestamp": "2022-03-27T20:27:42Z"
             },
             {
-                "checksum": "c5482f670d87043c9d19785e88074067",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Auto Organize",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-autoorganize/jellyfin-plugin-autoorganize_4.0.zip",
-                "targetFilename": "jellyfin-plugin-autoorganize_4.0.zip",
-                "timestamp": "2019-09-20 12:01:37",
-                "versionStr": "4.0"
+                "version": "7.0.0.0",
+                "changelog": "### New features and improvements ###\n- chore: plugin images (#42) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#43) @dependabot\n\n### CI & build changes ###\n- Update ci (#47) @h1dden-da3m0n\n- Add pre-commit config (#41) @oddstr13\n- Add release drafter (#40) @oddstr13\n- Add workflows for code testing (#38) @oddstr13\n- Add analyzers and fix warnings (#37) @oddstr13\n\n### Code or Repo Maintenance ###\n- 10.8 support (#51) @crobibero\n- Split scripts and update to es6 (#46) @grafixeyehero\n- Use System.Text.Json (#34) @daullmer",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_7.0.0.0.zip",
+                "checksum": "e452370cae79462762f69f2506e77fe1",
+                "timestamp": "2022-01-08T17:23:13Z"
             },
             {
-                "checksum": "9e24c71dc4df8e2b1d6277f98c0b9e9a",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Auto Organize",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-autoorganize/jellyfin-plugin-autoorganize_3.0.zip",
-                "targetFilename": "jellyfin-plugin-autoorganize_3.0.zip",
-                "timestamp": "2019-05-02 15:21:59",
-                "versionStr": "3.0"
+                "version": "6.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_6.0.0.0.zip",
+                "checksum": "787c856c0d2ad2224cdd8b3094cf0329",
+                "timestamp": "2020-12-05T22:10:37Z"
             },
             {
-                "checksum": "7757e2041bbd6e4ce347a63f7ecb5164",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Auto Organize",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-autoorganize/jellyfin-plugin-autoorganize_2.0.zip",
-                "targetFilename": "jellyfin-plugin-autoorganize_2.0.zip",
-                "timestamp": "2019-04-19 20:39:53",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "2f761c6daf7571d660c1e14ef4eca646",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Auto Organize",
-                "packageId": 7,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-autoorganize/jellyfin-plugin-autoorganize_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-autoorganize_1.0.0.zip",
-                "timestamp": "2019-03-11 21:30:11",
-                "versionStr": "1.0.0"
+                "version": "5.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kodi-sync-queue/kodi-sync-queue_5.0.0.0.zip",
+                "checksum": "08285397aecd93ea64a4f15d38b1bd7b",
+                "timestamp": "2020-07-20T01:31:22Z"
             }
         ]
     },
     {
-        "adult": 0,
-        "avgRating": 5,
+        "guid": "958aad66-3784-4d2a-b89a-a7b6fab6e25c",
+        "name": "LDAP Authentication",
+        "description": "Authenticate your Jellyfin users against an LDAP database, and optionally create users who do not yet exist automatically.\n\nAllows the administrator to customize most aspects of the LDAP authentication process, including customizable search attributes, username attribute, and a search filter for administrative users (set on user creation). The user, via the \"Manual Login\" process, can enter any valid attribute value, which will be mapped back to the specified username attribute automatically as well.\n",
+        "overview": "Authenticate users against an LDAP database",
+        "owner": "jellyfin",
+        "category": "Authentication",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-ldapauth.png",
+        "versions": [
+            {
+                "version": "18.0.0.0",
+                "changelog": "- Implement proper input sanitization to prevent LDAP injection attacks (#153) @tam1m\n\n### New features and improvements ###\n- Added  (#147) @sdimovv\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#150) @methbkts\n\n### Documentation updates ###\n- Fix \"build\" shields badge (#152) @Radiicall",
+                "targetAbi": "10.8.13.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_18.0.0.0.zip",
+                "checksum": "1f8ca7c9242d43002af18ff2a71cdcf5",
+                "timestamp": "2023-12-05T04:54:29Z"
+            },
+            {
+                "version": "17.0.0.0",
+                "changelog": "### New features and improvements ###\n- Rework search flow to minimize LDAP search results (#140) @joshuaboniface\n- admin memberUid feature flag (#138) @cyberb\n- Expand certificate support for LDAP authentication (#135) @JoshuaHassler\n\n### Bug Fixes ###\n- Rework search flow to minimize LDAP search results (#140) @joshuaboniface",
+                "targetAbi": "10.8.9.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_17.0.0.0.zip",
+                "checksum": "0d5b00de3a796bc7bcc45015580afcc9",
+                "timestamp": "2023-03-02T18:38:22Z"
+            },
+            {
+                "version": "16.0.0.0",
+                "changelog": "### New features and improvements ###\n- Feature: LDAP Password Change with Toggle (#115) @mstrhakr\n\n### Bug Fixes ###\n- Fix PasswordResetUrl value in config page script (#117) @robobenklein\n\n### CI & build changes ###\n- fix: meta ci workflows (#122) @h1dden-da3m0n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_16.0.0.0.zip",
+                "checksum": "edc68cdfdc2052e1a1bf4fb7e698c973",
+                "timestamp": "2022-06-16T22:46:41Z"
+            },
+            {
+                "version": "15.0.0.0",
+                "changelog": "### Major bug fixes ###\n- Fix searching for admin (#114) @crobibero\n\n### New features and improvements ###\n- OpenLDAP admin memberUid support (#113) @cyberb\n- Add ability to use LDAP as password reset provider (#106) @crobibero\n\n### Code or Repo Maintenance ###\n- Use meta ci (#110) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#110) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_15.0.0.0.zip",
+                "checksum": "9824889c766a8142c9ed13ded36ce456",
+                "timestamp": "2022-04-15T15:34:39Z"
+            },
+            {
+                "version": "14.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add User Settings Tests (#101) @1337joe\n- Add Settings Tests (#100) @1337joe\n- Changing the LDAP Admin filter can change existing LDAP authenticating users (#96) @jketreno\n- Add 'Enable All Folders' or selected folder list for LDAP user create (#90) @jketreno\n\n### Bug Fixes ###\n- Fix #92 - Re-registering of \"pageshow\" handler (#93) @jketreno",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_14.0.0.0.zip",
+                "checksum": "ee7baaf848be121f45b5177b65289cf7",
+                "timestamp": "2022-01-08T17:23:40Z"
+            },
+            {
+                "version": "13.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#89) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_13.0.0.0.zip",
+                "checksum": "72cae2785f838f563b22d5d773866189",
+                "timestamp": "2021-11-01T20:59:09Z"
+            },
+            {
+                "version": "12.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Enable automatic referral following (#86) @gtbuchanan\n- fix admin lookup condition (#82) @Bobonium\n\n### CI & build changes ###\n- Update ci (#83) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- chore: plugin images (#79) @h1dden-da3m0n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_12.0.0.0.zip",
+                "checksum": "8a68b30bcf98eee76110c508d1cbefaf",
+                "timestamp": "2021-09-06T17:20:15Z"
+            },
+            {
+                "version": "11.0.0.0",
+                "changelog": "Fix case-sensitive username check\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_11.0.0.0.zip",
+                "checksum": "4da8f87c4746cba13f8103dfb974ca70",
+                "timestamp": "2021-04-15T09:03:43Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "Update for 10.7 support\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_10.0.0.0.zip",
+                "checksum": "62e7e1cd3ffae0944c14750a3c90df4f",
+                "timestamp": "2020-12-05T19:48:10Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_9.0.0.0.zip",
+                "checksum": "7f2f83587a65a43ebf168e4058421463",
+                "timestamp": "2020-07-22T15:42:57Z"
+            },
+            {
+                "version": "8.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/ldap-authentication/ldap-authentication_8.0.0.0.zip",
+                "checksum": "8af8cee62717d63577f8b1e710839415",
+                "timestamp": "2020-07-20T01:31:30Z"
+            }
+        ]
+    },
+    {
+        "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
+        "name": "NextPVR",
+        "description": "Provides access to live TV, program guide, and recordings from NextPVR.\n",
+        "overview": "Live TV plugin for NextPVR",
+        "owner": "jellyfin",
+        "category": "LiveTV",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-nextpvr.png",
+        "versions": [
+            {
+                "version": "8.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- More  changes for 10.8 beta (#39) @emveepee\n- Use meta ci (#36) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#36) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_8.0.0.0.zip",
+                "checksum": "85709b313b176172fd76054509a528fb",
+                "timestamp": "2022-04-07T21:31:11Z"
+            },
+            {
+                "version": "7.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Changes for 10.8 alpha2 (#31) @emveepee\n- Use System.Text.Json (#17) @daullmer",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_7.0.0.0.zip",
+                "checksum": "eb204fc362b43bad171407832fed0459",
+                "timestamp": "2022-01-08T17:23:55Z"
+            },
+            {
+                "version": "6.0.0.0",
+                "changelog": "### New features and improvements ###\n- chore: plugin images (#24) @h1dden-da3m0n\n- Increase sid security (#19) @emveepee\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#22) @dependabot\n\n### CI & build changes ###\n- Update ci (#26) @h1dden-da3m0n\n- chore(ci): builds, releas drafter and more (#21) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- remove jQuery and update to es6 (#25) @grafixeyehero",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_6.0.0.0.zip",
+                "checksum": "85b692a6d0c3cf897867cbae31dffcaa",
+                "timestamp": "2021-07-20T20:56:25Z"
+            },
+            {
+                "version": "5.0.0.0",
+                "changelog": "Updated to use NextPVR API v5, no longer compatable with API v4.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_5.0.0.0.zip",
+                "checksum": "d70f694d14bf9462ba2b2ebe110068d3",
+                "timestamp": "2020-12-05T22:24:03Z"
+            },
+            {
+                "version": "4.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/nextpvr/nextpvr_4.0.0.0.zip",
+                "checksum": "b15949d895ac5a8c89496581db350478",
+                "timestamp": "2020-07-20T01:31:38Z"
+            }
+        ]
+    },
+    {
+        "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
+        "name": "Open Subtitles",
+        "description": "Download subtitles from the internet to use with your media files.",
+        "overview": "Download subtitles for your media",
+        "owner": "jellyfin",
         "category": "Metadata",
-        "expDate": null,
-        "featureId": "TMDb Box Sets",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opensubtitles.png",
+        "versions": [
+            {
+                "version": "19.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n- Add handling for .strm files (#124) @MBR-0001\n\n### Bug Fixes ###\n- Add automatic invalidation of credentials (#128) @MBR-0001\n\n### CI & build changes ###\n- fix: meta ci workflows (#106) @h1dden-da3m0n",
+                "targetAbi": "10.8.10.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_19.0.0.0.zip",
+                "checksum": "432c09f99efe166e07fe605da052096a",
+                "timestamp": "2023-07-02T17:31:26Z"
+            },
+            {
+                "version": "18.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix pagination (#92) @MBR-0001\n\n### Tests ###\n- Minor improvements (#90) @Bond-009\n\n### Code or Repo Maintenance ###\n- Use meta ci (#101) @crobibero\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n- Minor improvements (#90) @Bond-009\n- Replace %20 with + in SearchSubtitlesAsync (#89) @MBR-0001\n- Implement Bad Gateway handling & code cleanup (#87) @MBR-0001\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.NET.Test.Sdk from 16.11.0 to 17.0.0 (#91) @dependabot\n\n### CI & build changes ###\n- Use meta ci (#101) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_18.0.0.0.zip",
+                "checksum": "9154f9a36248a2e8dead09e52291206a",
+                "timestamp": "2022-03-28T00:04:24Z"
+            },
+            {
+                "version": "17.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Move OpenSubtitlesHandler project to folder (#85) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_17.0.0.0.zip",
+                "checksum": "a4adafc1c813f720773ffe7cc4455645",
+                "timestamp": "2022-01-08T17:24:29Z"
+            },
+            {
+                "version": "12.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fixes, language improvements, code cleanup & error logging (#67) @MBR-0001",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_12.0.0.0.zip",
+                "checksum": "3244dc49e494bfcf66b783660b7a5a17",
+                "timestamp": "2021-10-21T04:49:46Z"
+            },
+            {
+                "version": "11.0.0.0",
+                "changelog": "### Major features and improvements ###\n- Switch to new API (#54) @MBR-0001\n\n### New features and improvements ###\n- chore: plugin images (#50) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#45) @dependabot\n\n### CI & build changes ###\n- Update ci (#55) @h1dden-da3m0n\n- chore(ci): builds, releas drafter and more (#42) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- Add analyzers, remove all warnings (#61) @crobibero\n- Remove jquery and update to es6 (#51) @grafixeyehero\n- Add analyzers (#44) @crobibero",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_11.0.0.0.zip",
+                "checksum": "30b5ae5d6e0deab03364d1d861cdd911",
+                "timestamp": "2021-08-28T18:42:32Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_10.0.0.0.zip",
+                "checksum": "ed99d03ec463bf15fca1256a113f57b4",
+                "timestamp": "2020-12-05T21:56:19Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/open-subtitles/open-subtitles_9.0.0.0.zip",
+                "checksum": "16789b26497cea0509daf6b18c579340",
+                "timestamp": "2020-07-20T01:32:00Z"
+            }
+        ]
+    },
+    {
+        "guid": "5c534381-91a3-43cb-907a-35aa02eb9d2c",
+        "name": "Playback Reporting",
+        "description": "Collect and show user play statistics",
+        "overview": "Collect and show user play statistics",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-playbackreporting.png",
+        "versions": [
+            {
+                "version": "13.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Added support for decimal timezones (#64) @theKAKAN\n- Keep all avatars the same dimension (#62) @sambartik\n\n### CI & build changes ###\n- fix: meta ci workflows (#60) @h1dden-da3m0n",
+                "targetAbi": "10.8.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_13.0.0.0.zip",
+                "checksum": "9249ad025297bed2f7a1808f30cd34b2",
+                "timestamp": "2022-07-10T12:47:28Z"
+            },
+            {
+                "version": "12.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#59) @crobibero\n- Use meta ci (#57) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#57) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_12.0.0.0.zip",
+                "checksum": "6282c85380c4ab75bded1a2f0850fba6",
+                "timestamp": "2022-03-27T20:34:12Z"
+            },
+            {
+                "version": "11.0.0.0",
+                "changelog": "- chore(deps): bump SQLitePCL.pretty.netstandard from 2.1.0 to 2.2.0 (#40) @dependabot\n\n### New features and improvements ###\n- chore: plugin images (#41) @h1dden-da3m0n\n\n### CI & build changes ###\n- Update ci (#45) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- 10.8 (#49) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_11.0.0.0.zip",
+                "checksum": "d750a6b41799142370fa2f40c70fea9d",
+                "timestamp": "2022-01-08T17:24:44Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "* Fix query to PlayActivity endpoint on User Playback Report (#35) @Stampede10343 * Feature/client timezone awareness (#37) @Stampede10343\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_10.0.0.0.zip",
+                "checksum": "b56ad6715336a363d4477eb40d668491",
+                "timestamp": "2021-04-12T14:12:57Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_9.0.0.0.zip",
+                "checksum": "ca323b3dcb2cb86cc2e72a7a0f1eee22",
+                "timestamp": "2020-12-05T22:15:48Z"
+            },
+            {
+                "version": "8.0.0.0",
+                "changelog": "Add authentication to plugin endpoints\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_8.0.0.0.zip",
+                "checksum": "58644c505586542ef0b8b65e2f704bd1",
+                "timestamp": "2020-11-18T03:01:51Z"
+            },
+            {
+                "version": "7.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/playback-reporting/playback-reporting_7.0.0.0.zip",
+                "checksum": "6a361ef33bca97f9155856d02ff47380",
+                "timestamp": "2020-07-20T01:32:09Z"
+            }
+        ]
+    },
+    {
+        "guid": "d4312cd9-5c90-4f38-82e8-51da566790e8",
+        "name": "Reports",
+        "description": "Generate reports of your media library",
+        "overview": "Generate reports of your media library",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-reports.png",
+        "versions": [
+            {
+                "version": "15.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix CSV Export Format (#73) @mwildgoose\n\n### Code or Repo Maintenance ###\n- Use meta ci (#66) @crobibero\n- Performance improvements (#59) @Bond-009\n- Style fixes, enable analysis and nullable (#57) @Bond-009\n\n### CI & build changes ###\n- fix: meta ci workflows (#68) @h1dden-da3m0n\n- Use meta ci (#66) @crobibero",
+                "targetAbi": "10.8.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_15.0.0.0.zip",
+                "checksum": "4ebde0325f5157f5a7623c203236a6e6",
+                "timestamp": "2022-07-16T12:47:59Z"
+            },
+            {
+                "version": "14.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Use BaseItemKind (#52) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_14.0.0.0.zip",
+                "checksum": "b7586cc3ef692576f425a303e9d398ee",
+                "timestamp": "2022-01-08T17:24:56Z"
+            },
+            {
+                "version": "12.0.0.0",
+                "changelog": "Fix Jellyfin 10.7 compatibility\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_12.0.0.0.zip",
+                "checksum": "cb16b92a8e0dc19f92eb0f46b3a64936",
+                "timestamp": "2021-06-19T17:23:15Z"
+            },
+            {
+                "version": "11.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_11.0.0.0.zip",
+                "checksum": "d71bc6a4c008e58ee70ad44c83bfd310",
+                "timestamp": "2020-12-05T22:00:46Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_10.0.0.0.zip",
+                "checksum": "3917e75839337475b42daf2ba0b5bd7b",
+                "timestamp": "2020-10-19T19:30:41Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/reports/reports_9.0.0.0.zip",
+                "checksum": "5b5ad8d885616a21e8d1e8eecf5ea979",
+                "timestamp": "2020-10-16T23:52:37Z"
+            }
+        ]
+    },
+    {
         "guid": "bc4aad2e-d3d0-4725-a5e2-fd07949e5b42",
-        "id": 8,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
         "name": "TMDb Box Sets",
+        "description": "Automatically create movie box sets based on TMDb collections",
         "overview": "Automatically create movie box sets based on TMDb collections",
         "owner": "jellyfin",
-        "packageId": 8,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Automatically create movie box sets based on TMDb collections",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
+        "category": "Metadata",
         "versions": [
             {
-                "checksum": "85dd151e4375d273cd4b577d2415c7f9",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TMDb Box Sets",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tmdbboxsets/jellyfin-plugin-tmdbboxsets_5.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-tmdbboxsets_5.0.0.0.zip",
-                "timestamp": "2020-03-09 21:03:29",
-                "versionStr": "5.0.0.0"
+                "version": "10.0.0.0",
+                "changelog": "- chore(deps): bump release-drafter/release-drafter from 5.15.0 to 5.17.6 (#59) @dependabot\n\n### Code or Repo Maintenance ###\n- 10.8 support (#68) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#67) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_10.0.0.0.zip",
+                "checksum": "0a4054c838d9c407e22fdc3f0bc7f698",
+                "timestamp": "2022-03-28T00:06:42Z"
             },
             {
-                "checksum": "a868dce8522979736fbb1dc2256898b9",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TMDb Box Sets",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tmdbboxsets/jellyfin-plugin-tmdbboxsets_4.0.zip",
-                "targetFilename": "jellyfin-plugin-tmdbboxsets_4.0.zip",
-                "timestamp": "2019-09-30 01:40:50",
-                "versionStr": "4.0"
+                "version": "9.0.0.0",
+                "changelog": "- Use BaseItemKind (#56) @crobibero\n\n### Bug Fixes ###\n- Update TMDbBoxSetManager.cs (#49) @WWWesten",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_9.0.0.0.zip",
+                "checksum": "402e47f4f1c13ad1aa52f8bae6f29fc0",
+                "timestamp": "2022-01-08T17:25:18Z"
             },
             {
-                "checksum": "d08a456f253cd1305a8b62422283ff90",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TMDb Box Sets",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tmdbboxsets/jellyfin-plugin-tmdbboxsets_3.0.zip",
-                "targetFilename": "jellyfin-plugin-tmdbboxsets_3.0.zip",
-                "timestamp": "2019-05-14 21:04:26",
-                "versionStr": "3.0"
+                "version": "8.0.0.0",
+                "changelog": "- 10.8 support (#47) @crobibero\n- Fix #36: Save button has wrong text (#40) @danimart1991\n\n### New features and improvements ###\n- Strip Collection string multilanguage (#43) @danimart1991\n- Fix #38: NullReferenceException on Collection Name (#41) @danimart1991\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#39) @dependabot\n\n### CI & build changes ###\n- chore(ci): builds, releas drafter and more (#34) @h1dden-da3m0n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_8.0.0.0.zip",
+                "checksum": "a45b5384f3bb81a86f7b4fd4da18a644",
+                "timestamp": "2021-11-01T21:03:17Z"
             },
             {
-                "checksum": "729421514e8aca4ce1e2a8b1269bc230",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TMDb Box Sets",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tmdbboxsets/jellyfin-plugin-tmdbboxsets_2.0.zip",
-                "targetFilename": "jellyfin-plugin-tmdbboxsets_2.0.zip",
-                "timestamp": "2019-04-19 20:39:57",
-                "versionStr": "2.0"
+                "version": "7.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_7.0.0.0.zip",
+                "checksum": "1551792e6af4d36f2cead01153c73cf0",
+                "timestamp": "2020-12-05T22:07:21Z"
             },
             {
-                "checksum": "2ba4b764903efaa4ffa98b4470798df1",
-                "classification": "Release",
-                "description": "Release",
-                "name": "TMDb Box Sets",
-                "packageId": 8,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-tmdbboxsets/jellyfin-plugin-tmdbboxsets_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-tmdbboxsets_1.0.0.zip",
-                "timestamp": "2019-03-11 21:30:13",
-                "versionStr": "1.0.0"
+                "version": "6.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tmdb-box-sets/tmdb-box-sets_6.0.0.0.zip",
+                "checksum": "b92b68a922c5fcbb8f4d47b8601b01b6",
+                "timestamp": "2020-07-20T01:32:58Z"
             }
         ]
     },
     {
-        "adult": 0,
-        "avgRating": 5,
+        "guid": "4fe3201e-d6ae-4f2e-8917-e12bda571281",
+        "name": "Trakt",
+        "description": "Record your watched media with Trakt.\n",
+        "overview": "Record your watched media with Trakt",
+        "owner": "jellyfin",
         "category": "General",
-        "expDate": null,
-        "featureId": "Playback Reporting",
-        "guid": "5c534381-91a3-43cb-907a-35aa02eb9d2c",
-        "id": 9,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Playback Reporting",
-        "overview": "Collect and show user play stats",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-trakt.png",
+        "versions": [
+            {
+                "version": "24.0.0.0",
+                "changelog": "### New features and improvements ###\n- Use history api for importing episodes from trakt (#205) @h3llrais3r\n\n### Bug Fixes ###\n- Fix duplicate watched entries (#224) @buthed010203\n- Fix pagination when no items are present (#215) @kade-robertson\n\n### Code or Repo Maintenance ###\n- Code cleanup (#225) @crobibero\n\n### Documentation updates ###\n- Typo - Update trakt.html (#206) @Awolize\n- small correction to trakt.html (#202) @veloute",
+                "targetAbi": "10.8.12.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_24.0.0.0.zip",
+                "checksum": "421565044bb0165e7f1ee4049a65c51e",
+                "timestamp": "2023-11-27T13:15:03Z"
+            },
+            {
+                "version": "23.0.0.0",
+                "changelog": "### New features and improvements ###\n- Added config parameter Don't remove items from trakt (#196) @addamanth\n\n### Bug Fixes ###\n- Sync  if not set locally (#201) @blackwind\n- Fix episode last played date syncing (#199) @Shadowghost",
+                "targetAbi": "10.8.9.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_23.0.0.0.zip",
+                "checksum": "ad39a1011f4ceaa94baa6cb93b4b0471",
+                "timestamp": "2023-02-10T23:21:39Z"
+            },
+            {
+                "version": "22.0.0.0",
+                "changelog": "- Update README.md (#188) @methbkts\n\n### New features and improvements ###\n- Fix episode matching for sync from trakt task (#191) @h3llrais3r\n\n### Bug Fixes ###\n- Fix episode matching for sync from trakt task (#191) @h3llrais3r",
+                "targetAbi": "10.8.8.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_22.0.0.0.zip",
+                "checksum": "063bdd794a775adfaa61dc9afe20e532",
+                "timestamp": "2022-12-28T16:26:21Z"
+            },
+            {
+                "version": "21.0.0.0",
+                "changelog": "### New features and improvements ###\n- Do not hammer the API (#175) @Shadowghost\n\n### Bug Fixes ###\n- Do not hammer the API (#175) @Shadowghost\n- Prevent setting local item as unwatched on sync (#169) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Add more info to debug logs (#171) @sambartik",
+                "targetAbi": "10.8.5.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_21.0.0.0.zip",
+                "checksum": "dec8c2b84fab06de7c4cb14e77d5cc27",
+                "timestamp": "2022-10-20T14:21:35Z"
+            },
+            {
+                "version": "20.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix unauthorized users not being skipped (#154) @Shadowghost\n- Fix MediaType metadata (#154) @Shadowghost\n- Don't fail tasks if one user fails (#154) @Shadowghost\n### Features ###\n- Implement HDR metadata (#154) @Shadowghost\n  - Implement metadata for episodes (#154) @Shadowghost\n- Switch to GUIDs (this requires reauthentication of all users) (#154) @Shadowghost",
+                "targetAbi": "10.8.4.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_20.0.0.0.zip",
+                "checksum": "7e3212b10f381a7d488f518f9e26a06f",
+                "timestamp": "2022-09-02T13:12:51Z"
+            },
+            {
+                "version": "19.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Properly handle 404 API responses (#144) @Shadowghost\n\n### Dependency updates ###\n- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.406 to 1.2.0-beta.435 (#139) @dependabot\n\n### CI & build changes ###\n- fix: meta ci workflows (#145) @h1dden-da3m0n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_19.0.0.0.zip",
+                "checksum": "4286ad59d87aa66d220fb7ff98d49430",
+                "timestamp": "2022-05-28T17:17:20Z"
+            },
+            {
+                "version": "18.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Various Fixes (#136) @Shadowghost\n- Fix live watched state sync (#134) @Shadowghost\n- Fix metadata enums and mapping (#132) @Shadowghost",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_18.0.0.0.zip",
+                "checksum": "744dbee8d07aaf60113290d8fa894315",
+                "timestamp": "2022-05-04T20:52:15Z"
+            },
+            {
+                "version": "17.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Various Fixes (#136) @Shadowghost\n- Fix live watched state sync (#134) @Shadowghost\n- Fix metadata enums and mapping (#132) @Shadowghost",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_17.0.0.0.zip",
+                "checksum": "679c7e556a0cc897a464694248143acf",
+                "timestamp": "2022-05-04T19:13:04Z"
+            },
+            {
+                "version": "16.0.0.0",
+                "changelog": "### New features and improvements ###\n- Implement handling of update events and progress sync, fix scheduled tasks (#120) @Shadowghost\n- Add pagination to scheduled tasks (#111) @crobibero\n- Implement deauth (#114) @Shadowghost\n- Sync Pause and Resume, enable analyzers (#112) @Shadowghost\n\n### Bug Fixes ###\n- Implement handling of update events and progress sync, fix scheduled tasks (#120) @Shadowghost\n- Send pause instead of stop on uncompleted playback to prevent scrobble (#117) @Shadowghost\n- Require success response before deserializing (#115) @crobibero\n\n### Code or Repo Maintenance ###\n- Switch to native episode number check and datetime string conversion (#124) @Shadowghost\n- Fix codeql warnings (#123) @crobibero\n- Use file-scoped namespace everywhere (#122) @crobibero\n- Migrate API to use enums, update properties (#118) @Shadowghost\n- Update .Net version in readme (#119) @sambartik",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_16.0.0.0.zip",
+                "checksum": "8c0a8bc57b23eee3299cf4018b6abb76",
+                "timestamp": "2022-04-24T19:31:08Z"
+            },
+            {
+                "version": "15.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Retry episode scrobble without IDs if episode was not found by trakt (#102) @SenorSmartyPants\n- Fix episodes with IDs (#100) @SenorSmartyPants\n\n### Code or Repo Maintenance ###\n- 10.8 support (#110) @crobibero\n- Use meta ci (#108) @crobibero\n\n### CI & build changes ###\n- Use meta ci (#108) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_15.0.0.0.zip",
+                "checksum": "3f92c4f7d5350a2aced3cfe273a75ec2",
+                "timestamp": "2022-03-27T20:44:42Z"
+            },
+            {
+                "version": "14.0.0.0",
+                "changelog": "### New features and improvements ###\n- Handle TV show rewatches (#97) @dulli\n- Don't treat TVDB Id specially for episodes (#93) @SenorSmartyPants\n\n### Code or Repo Maintenance ###\n- Use BaseItemKind (#98) @crobibero\n- Remove all warnings in project (#96) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_14.0.0.0.zip",
+                "checksum": "82e41d5c0ecf59743627fac10d27a080",
+                "timestamp": "2022-01-08T17:25:30Z"
+            },
+            {
+                "version": "13.0.0.0",
+                "changelog": "### CI & build changes ###\n- Update ci (#85) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- 10.8 support (#91) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_13.0.0.0.zip",
+                "checksum": "408b38f1335ee1f947890752004cb017",
+                "timestamp": "2021-11-01T21:03:41Z"
+            },
+            {
+                "version": "12.0.0.0",
+                "changelog": "- remove jQuery and update to es6 (#78) @grafixeyehero\n- Use Trakt last watched date when importing (#63) @netpok\n- Use System.Text.Json (#61) @Ullmie02\n- chore: plugin images (#76) @h1dden-da3m0n\n- Fix save button label (#72) @Vagab0nd\n- Fix AUTHED_API_POST_LIMIT (#65) @dgalli1\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#68) @dependabot\n- chore(ci): builds, releas drafter and more (#66) @h1dden-da3m0n\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_12.0.0.0.zip",
+                "checksum": "f910593ca1ad68f1a90a08fa255281b7",
+                "timestamp": "2021-06-14T05:27:08Z"
+            },
+            {
+                "version": "11.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_11.0.0.0.zip",
+                "checksum": "2257ccde1e39114644a27e0966a0bf2d",
+                "timestamp": "2020-12-05T19:56:12Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/trakt/trakt_10.0.0.0.zip",
+                "checksum": "ab67e6b59ea2e7860a6a3ff7b8452759",
+                "timestamp": "2020-07-20T01:33:06Z"
+            }
+        ]
+    },
+    {
+        "guid": "3fd018e5-5e78-4e58-b280-a0c068febee0",
+        "name": "TVHeadend",
+        "description": "Manage TVHeadend from Jellyfin",
+        "overview": "Manage TVHeadend from Jellyfin",
         "owner": "jellyfin",
-        "packageId": 9,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Collect and show user play stats",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "09c93006e1c392b266ad9dfdb06aaa91",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Playback Reporting",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-playbackreporting/jellyfin-plugin-playbackreporting_6.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-playbackreporting_6.0.0.0.zip",
-                "timestamp": "2020-05-02 17:55:05",
-                "versionStr": "6.0.0.0"
-            },
-            {
-                "checksum": "2328fffcc74a9f051f776feed97cea0f",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Playback Reporting",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-playbackreporting/jellyfin-plugin-playbackreporting_5.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-playbackreporting_5.0.0.0.zip",
-                "timestamp": "2020-04-30 18:59:57",
-                "versionStr": "5.0.0.0"
-            },
-            {
-                "checksum": "32b1cd41195f055166c2ef9563c4000f",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Playback Reporting",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-playbackreporting/jellyfin-plugin-playbackreporting_4.0.zip",
-                "targetFilename": "jellyfin-plugin-playbackreporting_4.0.zip",
-                "timestamp": "2019-10-05 16:19:49",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "fc8e6f545a2fee8e2505c366a6bace5d",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Playback Reporting",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-playbackreporting/jellyfin-plugin-playbackreporting_3.0.zip",
-                "targetFilename": "jellyfin-plugin-playbackreporting_3.0.zip",
-                "timestamp": "2019-04-27 21:23:40",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "6415d51f9c1e98f36b45992210e608e9",
-                "classification": "Release",
-                "description": "Release",
-                "name": "PlaybackReporting",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-playbackreporting/jellyfin-plugin-playbackreporting_2.0.zip",
-                "targetFilename": "jellyfin-plugin-playbackreporting_2.0.zip",
-                "timestamp": "2019-04-19 20:40:01",
-                "versionStr": "2.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Authentication",
-        "expDate": null,
-        "featureId": "LDAP Authentication",
-        "guid": "958aad66-3784-4d2a-b89a-a7b6fab6e25c",
-        "id": 10,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "LDAP Authentication",
-        "overview": "Authenticate your Jellyfin users against an LDAP database, and optionally create users who do not yet exist automatically.\nAllows the administrator to customize most aspects of the LDAP authentication process, including customizable search attributes, username attribute, and a search filter for administrative users (set on user creation). The user, via the \"Manual Login\" process, can enter any valid attribute value, which will be mapped back to the specified username attribute automatically as well.\n",
-        "owner": "jellyfin",
-        "packageId": 10,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Authenticate users against an LDAP database",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "0206ba9175ebeb483e67c2e1b6524e48",
-                "classification": "Release",
-                "description": "Release",
-                "name": "LDAP Authentication",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-ldapauth/jellyfin-plugin-ldapauth_6.0.zip",
-                "targetFilename": "jellyfin-plugin-ldapauth_6.0.zip",
-                "timestamp": "2019-11-30 14:46:48",
-                "versionStr": "6.0"
-            },
-            {
-                "checksum": "32b64a8ce9d682ffdf20e7b8cac175a5",
-                "classification": "Release",
-                "description": "Release",
-                "name": "LDAP Authentication",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-ldapauth/jellyfin-plugin-ldapauth_4.0.zip",
-                "targetFilename": "jellyfin-plugin-ldapauth_4.0.zip",
-                "timestamp": "2019-09-09 23:00:02",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "99a4138d13baf894c0b15b026992e2ec",
-                "classification": "Release",
-                "description": "Release",
-                "name": "LDAP Authentication",
-                "requiredVersionStr": "10.3.5",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-ldapauth/jellyfin-plugin-ldapauth_3.0.zip",
-                "targetFilename": "jellyfin-plugin-ldapauth_3.0.zip",
-                "timestamp": "2019-06-09 23:13:56",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "7376ac2d54bc38c50dd933e49fde7ae3",
-                "classification": "Release",
-                "description": "Release",
-                "name": "LDAP Authentication",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-ldapauth/jellyfin-plugin-ldapauth_2.0.zip",
-                "targetFilename": "jellyfin-plugin-ldapauth_2.0.zip",
-                "timestamp": "2019-05-07 23:52:52",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "61cb5bf6ab3a8c56aa732d2b0e195e91",
-                "classification": "Release",
-                "description": "Release",
-                "name": "LDAP Authentication",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-ldapauth/jellyfin-plugin-ldapauth_1.0.zip",
-                "targetFilename": "jellyfin-plugin-ldapauth_1.0.zip",
-                "timestamp": "2019-04-19 20:40:06",
-                "versionStr": "1.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Metadata",
-        "expDate": null,
-        "featureId": "Open Subtitles",
-        "guid": "4b9ed42f-5185-48b5-9803-6ff2989014c4",
-        "id": 11,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Open Subtitles",
-        "overview": "Download subtitles from the internet to use with your media files.",
-        "owner": "jellyfin",
-        "packageId": 11,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Download subtitles for your media",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "519726aeb934a351afbc93c9209fbb9d",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Open Subtitles",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-opensubtitles/jellyfin-plugin-opensubtitles_7.0.zip",
-                "targetFilename": "jellyfin-plugin-opensubtitles_7.0.zip",
-                "timestamp": "2019-11-03 15:52:52",
-                "versionStr": "7.0"
-            },
-            {
-                "checksum": "b37ef7e83c79d0e253f0cb71ad0561db",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Open Subtitles",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-opensubtitles/jellyfin-plugin-opensubtitles_6.0.zip",
-                "targetFilename": "jellyfin-plugin-opensubtitles_6.0.zip",
-                "timestamp": "2019-10-06 14:44:00",
-                "versionStr": "6.0"
-            },
-            {
-                "checksum": "a3563866b6fd8f64a2b8bd938947d5ba",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Open Subtitles",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-opensubtitles/jellyfin-plugin-opensubtitles_5.0.zip",
-                "targetFilename": "jellyfin-plugin-opensubtitles_5.0.zip",
-                "timestamp": "2019-07-25 16:41:11",
-                "versionStr": "5.0"
-            },
-            {
-                "checksum": "417c3093ebc0f7948bd433b1c80c3fa7",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Open Subtitles",
-                "requiredVersionStr": "10.3.6",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-opensubtitles/jellyfin-plugin-opensubtitles_4.0.zip",
-                "targetFilename": "jellyfin-plugin-opensubtitles_4.0.zip",
-                "timestamp": "2019-07-25 13:56:22",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "b3292d75d901b448177fc1e4cf44de63",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Open Subtitles",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-opensubtitles/jellyfin-plugin-opensubtitles_3.0.zip",
-                "targetFilename": "jellyfin-plugin-opensubtitles_3.0.zip",
-                "timestamp": "2019-05-14 21:01:54",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "25646441aad377335b33dcaa95705cb6",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Open Subtitles",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-opensubtitles/jellyfin-plugin-opensubtitles_2.0.zip",
-                "targetFilename": "jellyfin-plugin-opensubtitles_2.0.zip",
-                "timestamp": "2019-04-19 20:49:01",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "d562452796521c119753fb29a52c0ffd",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Open Subtitles",
-                "packageId": 10,
-                "requiredVersionStr": "10.1.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-opensubtitles/jellyfin-plugin-opensubtitles_1.0.0.zip",
-                "targetFilename": "jellyfin-plugin-opensubtitles_1.0.0.zip",
-                "timestamp": "2019-03-11 21:30:15",
-                "versionStr": "1.0.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Notifications",
-        "expDate": null,
-        "featureId": "Gotify Notification",
-        "guid": "e29621a5-fa9e-4330-982e-ef6e54c0cad2",
-        "id": 12,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Gotify Notification",
-        "overview": "You must have a Gotify server to use this plugin!\n",
-        "owner": "crobibero",
-        "packageId": 12,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Sends notifications to your Gotify server",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "762a1de0f32acd6d629dc824201bb783",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Gotify Notification",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-gotify/jellyfin-plugin-gotify_6.0.zip",
-                "targetFilename": "jellyfin-plugin-gotify_6.0.zip",
-                "timestamp": "2020-02-25 22:57:34",
-                "versionStr": "6.0"
-            },
-            {
-                "checksum": "ce602069815fcdb57c39c1f236f2abe5",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Gotify Notification",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-gotify/jellyfin-plugin-gotify_5.0.zip",
-                "targetFilename": "jellyfin-plugin-gotify_5.0.zip",
-                "timestamp": "2019-10-06 14:45:48",
-                "versionStr": "5.0"
-            },
-            {
-                "checksum": "0942f5b4f49e7c6e7512318c572d7f40",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Gotify Notification",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-gotify/jellyfin-plugin-gotify_4.0.zip",
-                "targetFilename": "jellyfin-plugin-gotify_4.0.zip",
-                "timestamp": "2019-07-29 16:41:02",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "84876c79c725e834139b5de56e8ba73d",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Gotify Notification",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-gotify/jellyfin-plugin-gotify_3.0.zip",
-                "targetFilename": "jellyfin-plugin-gotify_3.0.zip",
-                "timestamp": "2019-07-25 13:55:20",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "5fad0bc98a9d91e1287531279c55f7e9",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Gotify Notification",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-gotify/jellyfin-plugin-gotify_2.0.zip",
-                "targetFilename": "jellyfin-plugin-gotify_2.0.zip",
-                "timestamp": "2019-05-09 15:00:39",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "8a0535cbcd098aa5d9338d19e713d6c4",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Gotify Notification",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-gotify/jellyfin-plugin-gotify_1.0.zip",
-                "targetFilename": "jellyfin-plugin-gotify_1.0.zip",
-                "timestamp": "2019-05-08 09:39:11",
-                "versionStr": "1.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
         "category": "LiveTV",
-        "expDate": null,
-        "featureId": "ServerWMC",
-        "guid": "1fc322a1-af2e-49a5-b2eb-a89b4240f700",
-        "id": 13,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "ServerWMC",
-        "overview": "Provides access to LiveTV, Program Guide and Recordings from your Windows MediaCenter Server running ServerWMC. Requires ServerWMC (https://serverwmc.github.io/) to be installed and running on your Windows MediaCenter machine.\n",
-        "owner": "jellyfin",
-        "packageId": 13,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Jellyfin LiveTV plugin for Windows MediaCenter with ServerWMC",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvheadend.png",
         "versions": [
             {
-                "checksum": "6c9c2ca5519126961fa7e82d3fa495cb",
-                "classification": "Release",
-                "description": "Release",
-                "name": "ServerWMC",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-serverwmc/jellyfin-plugin-serverwmc_3.0.zip",
-                "targetFilename": "jellyfin-plugin-serverwmc_3.0.zip",
-                "timestamp": "2019-10-17 11:54:48",
-                "versionStr": "3.0"
+                "version": "11.0.0.0",
+                "changelog": "### New features and improvements ###\n- Added Pre-Padding and Post-Padding to settings.  (#57) @lomion0815\n\n### Bug Fixes ###\n- Fix DLNA streaming (#46) @jkellerer\n\n### Code or Repo Maintenance ###\n- Use meta ci (#55) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#56) @h1dden-da3m0n\n- Use meta ci (#55) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_11.0.0.0.zip",
+                "checksum": "a8255ffbd1839faeaa477377887331c2",
+                "timestamp": "2022-06-14T11:11:54Z"
             },
             {
-                "checksum": "1c2da4c57fab67df64a6b252727a47b1",
-                "classification": "Release",
-                "description": "Release",
-                "name": "ServerWMC",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-serverwmc/jellyfin-plugin-serverwmc_2.0.zip",
-                "targetFilename": "jellyfin-plugin-serverwmc_2.0.zip",
-                "timestamp": "2019-10-17 10:16:32",
-                "versionStr": "2.0"
+                "version": "10.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#42) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_10.0.0.0.zip",
+                "checksum": "2e11b1af9c3c92b4bc70f537cda8f0a5",
+                "timestamp": "2022-01-08T17:25:55Z"
             },
             {
-                "checksum": "14301288a8b58840acb54f6ddced8243",
-                "classification": "Release",
-                "description": "Release",
-                "name": "ServerWMC",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-serverwmc/jellyfin-plugin-serverwmc_1.0.zip",
-                "targetFilename": "jellyfin-plugin-serverwmc_1.0.zip",
-                "timestamp": "2019-04-25 23:33:19",
-                "versionStr": "1.0"
+                "version": "9.0.0.0",
+                "changelog": "### New features and improvements ###\n- chore: plugin images (#37) @h1dden-da3m0n\n\n### CI & build changes ###\n- Update ci (#39) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- reduce log spam and clean up log messages (#41) @Shadowghost\n- Remove jquery (#38) @grafixeyehero",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_9.0.0.0.zip",
+                "checksum": "a5bd2c65ae2b2b3398ae2bbfd5d92b47",
+                "timestamp": "2021-09-03T11:05:07Z"
+            },
+            {
+                "version": "8.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_8.0.0.0.zip",
+                "checksum": "64be4d0b4118e0a59a290c187338b4f0",
+                "timestamp": "2021-04-15T08:56:26Z"
+            },
+            {
+                "version": "7.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_7.0.0.0.zip",
+                "checksum": "1abbfce737b6962f4b1b2255dc63e932",
+                "timestamp": "2021-01-05T16:20:33Z"
+            },
+            {
+                "version": "6.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvheadend/tvheadend_6.0.0.0.zip",
+                "checksum": "143c34fd70d7173b8912cc03ce4b517d",
+                "timestamp": "2020-07-20T01:33:15Z"
             }
         ]
     },
     {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "LiveTV",
-        "expDate": null,
-        "featureId": "NextPVR",
-        "guid": "9574ac10-bf23-49bc-949f-924f23cfa48f",
-        "id": 14,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "NextPVR",
-        "overview": "Provides access to LiveTV, Program Guide and Recordings from NextPVR.\n",
-        "owner": "jellyfin",
-        "packageId": 14,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Jellyfin LiveTV plugin for NextPVR",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "745d6e4f60596c3722d54a5648517f53",
-                "classification": "Release",
-                "description": "Release",
-                "name": "NextPVR",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-nextpvr/jellyfin-plugin-nextpvr_3.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-nextpvr_3.0.0.0.zip",
-                "timestamp": "2020-03-25 12:03:13",
-                "versionStr": "3.0.0.0"
-            },
-            {
-                "checksum": "212410905ad94a13f22336d5550d344e",
-                "classification": "Release",
-                "description": "Release",
-                "name": "NextPVR",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-nextpvr/jellyfin-plugin-nextpvr_2.0.zip",
-                "targetFilename": "jellyfin-plugin-nextpvr_2.0.zip",
-                "timestamp": "2019-11-06 00:19:48",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "82cdce7c47f647a4bd66e5d844798502",
-                "classification": "Release",
-                "description": "Release",
-                "name": "NextPVR",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-nextpvr/jellyfin-plugin-nextpvr_1.0.zip",
-                "targetFilename": "jellyfin-plugin-nextpvr_1.0.zip",
-                "timestamp": "2019-05-09 15:55:27",
-                "versionStr": "1.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Notifications",
-        "expDate": null,
-        "featureId": "Pushbullet",
-        "guid": "de228f12-e43e-4bd9-9fc0-2830819c3b92",
-        "id": 15,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Pushbullet",
-        "overview": "Get notifications via Pushbullet.\n",
-        "owner": "jellyfin",
-        "packageId": 15,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Jellyfin Pushbullet notification plugin",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "0b86f71fa7f6ffc644ce4251ee3440ad",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushbullet",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushbullet/jellyfin-plugin-pushbullet_4.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-pushbullet_4.0.0.0.zip",
-                "timestamp": "2020-04-29 11:52:51",
-                "versionStr": "4.0.0.0"
-            },
-            {
-                "checksum": "daeba8666096c325f3fbf53a5de0e07a",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushbullet",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushbullet/jellyfin-plugin-pushbullet_3.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-pushbullet_3.0.0.0.zip",
-                "timestamp": "2020-03-25 12:10:41",
-                "versionStr": "3.0.0.0"
-            },
-            {
-                "checksum": "05e4e83e3795741d21e62bb1bf57a3d2",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushbullet",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushbullet/jellyfin-plugin-pushbullet_2.0.zip",
-                "targetFilename": "jellyfin-plugin-pushbullet_2.0.zip",
-                "timestamp": "2019-09-26 09:31:43",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "2bcd580e08058681d6985709d142c768",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushbullet",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushbullet/jellyfin-plugin-pushbullet_1.0.zip",
-                "targetFilename": "jellyfin-plugin-pushbullet_1.0.zip",
-                "timestamp": "2019-05-09 15:55:57",
-                "versionStr": "1.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Notifications",
-        "expDate": null,
-        "featureId": "Slack Notifications",
-        "guid": "94fb77c3-55ad-4c50-bf4e-4e5497467b79",
-        "id": 16,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Slack Notifications",
-        "overview": "Get notifications via Slack.\n",
-        "owner": "jellyfin",
-        "packageId": 16,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Jellyfin Slack notification plugin",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "9cd7d7eeae64fcb2c59731aa7bd192cc",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Slack Notifications",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-slack/jellyfin-plugin-slack_5.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-slack_5.0.0.0.zip",
-                "timestamp": "2020-03-25 12:08:20",
-                "versionStr": "5.0.0.0"
-            },
-            {
-                "checksum": "ef4a13f41045425a1a9ae19556bdebd8",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Slack Notifications",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-slack/jellyfin-plugin-slack_4.0.zip",
-                "targetFilename": "jellyfin-plugin-slack_4.0.zip",
-                "timestamp": "2020-02-09 13:47:03",
-                "versionStr": "4.0"
-            },
-            {
-                "checksum": "479b1940686c7c2ec9ec92214b50d7b7",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Slack Notifications",
-                "requiredVersionStr": "10.3.7",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-slack/jellyfin-plugin-slack_3.0.zip",
-                "targetFilename": "jellyfin-plugin-slack_3.0.zip",
-                "timestamp": "2019-07-27 21:09:18",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "e5397a0735025492474229ac2b053028",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Slack Notifications",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-slack/jellyfin-plugin-slack_2.0.zip",
-                "targetFilename": "jellyfin-plugin-slack_2.0.zip",
-                "timestamp": "2019-06-25 14:52:46",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "1100692b56af07c9d1c1570e3cae5225",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Slack Notifications",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-slack/jellyfin-plugin-slack_1.0.zip",
-                "targetFilename": "jellyfin-plugin-slack_1.0.zip",
-                "timestamp": "2019-06-25 14:07:53",
-                "versionStr": "1.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Metadata",
-        "expDate": null,
-        "featureId": "Bookshelf",
-        "guid": "9c4e63f1-031b-4f25-988b-4f7d78a8b53e",
-        "id": 17,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Bookshelf",
-        "overview": "Supports several different metadata providers and options for organizing your collection.\n",
-        "owner": "jellyfin",
-        "packageId": 17,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Manage your books",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "d28051e7b9bd503354caf5558d5b747a",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Bookshelf",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-bookshelf/jellyfin-plugin-bookshelf_3.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-bookshelf_3.0.0.0.zip",
-                "timestamp": "2020-03-25 12:04:45",
-                "versionStr": "3.0.0.0"
-            },
-            {
-                "checksum": "3534439bf9efe5dfce871a2fe3aa53ee",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Bookshelf",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-bookshelf/jellyfin-plugin-bookshelf_2.0.zip",
-                "targetFilename": "jellyfin-plugin-bookshelf_2.0.zip",
-                "timestamp": "2020-02-12 01:35:36",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "9fc626693aeb6f23e0469cc09983a438",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Bookshelf",
-                "requiredVersionStr": "10.3.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-bookshelf/jellyfin-plugin-bookshelf_1.0.zip",
-                "targetFilename": "jellyfin-plugin-bookshelf_1.0.zip",
-                "timestamp": "2019-08-10 00:45:18",
-                "versionStr": "1.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Metadata",
-        "expDate": null,
-        "featureId": "Fanart",
-        "guid": "170a157f-ac6c-437a-abdd-ca9c25cebd39",
-        "id": 19,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Fanart",
-        "overview": "Scrape poster images for movies, shows, and artists in your library.",
-        "owner": "jellyfin",
-        "packageId": 19,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Scrape poster images from fanart.tv",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "a04eeaffd5d6d54400921279701add0e",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Fanart",
-                "requiredVersionStr": "10.5.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-fanart/jellyfin-plugin-fanart_4.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-fanart_4.0.0.0.zip",
-                "timestamp": "2020-03-29 06:56:08",
-                "versionStr": "4.0.0.0"
-            },
-            {
-                "checksum": "4d89a6073bea5489b5bce363c9273c17",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Fanart",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-fanart/jellyfin-plugin-fanart_3.0.zip",
-                "targetFilename": "jellyfin-plugin-fanart_3.0.zip",
-                "timestamp": "2019-10-29 17:32:20",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "cc51d33f7702d23aaa737a8f2f177d50",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Fanart",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-fanart/jellyfin-plugin-fanart_2.0.zip",
-                "targetFilename": "jellyfin-plugin-fanart_2.0.zip",
-                "timestamp": "2019-10-13 13:01:26",
-                "versionStr": "2.0"
-            }
-        ]
-    },
-    {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "Notifications",
-        "expDate": null,
-        "featureId": "Pushover",
-        "guid": "F240D6BE-5743-441B-87F1-A70ECAC42642",
-        "id": 20,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
-        "name": "Pushover",
-        "overview": "Send messages to a wide range of devices through Pushover.\n",
-        "owner": "crobibero",
-        "packageId": 20,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Sends notifications via Pushover Service",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
-        "versions": [
-            {
-                "checksum": "ce503ff32c9ef162c081aaad128658f6",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushover",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushover/jellyfin-plugin-pushover_3.0.0.0.zip",
-                "targetFilename": "jellyfin-plugin-pushover_3.0.0.0.zip",
-                "timestamp": "2020-03-26 11:43:12",
-                "versionStr": "3.0.0.0"
-            },
-            {
-                "checksum": "0278832fe02190d33819d5fe5d7cb67a",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushover",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushover/jellyfin-plugin-pushover_3.0.zip",
-                "targetFilename": "jellyfin-plugin-pushover_3.0.zip",
-                "timestamp": "2020-02-20 11:08:42",
-                "versionStr": "3.0"
-            },
-            {
-                "checksum": "03161b0c45f42a705e887e439abeffd1",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushover Notification",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushover/jellyfin-plugin-pushover_2.0.zip",
-                "targetFilename": "jellyfin-plugin-pushover_2.0.zip",
-                "timestamp": "2020-02-17 13:11:44",
-                "versionStr": "2.0"
-            },
-            {
-                "checksum": "fb82ba406070593bd5df78ad668c48a4",
-                "classification": "Release",
-                "description": "Release",
-                "name": "Pushover Notification",
-                "requiredVersionStr": "10.4.0",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/jellyfin-plugin-pushover/jellyfin-plugin-pushover_1.0.zip",
-                "targetFilename": "jellyfin-plugin-pushover_1.0.zip",
-                "timestamp": "2020-02-15 13:39:19",
-                "versionStr": "1.0"
-            }
-        ]
-    },
-       {
-        "adult": 0,
-        "avgRating": 5,
-        "category": "General",
-        "expDate": null,
-        "featureId": "InfuseSync",
         "guid": "022a3003-993f-45f1-8565-87d12af2e12a",
-        "id": 21,
-        "installs": 0,
-        "isPremium": false,
-        "isRegistered": false,
         "name": "InfuseSync",
-        "overview": "This plugin will track all media changes while any Infuse clients are offline to decrease sync times when logging back in to your server.\n",
+        "description": "This plugin will track all media changes while any Infuse clients are offline to decrease sync times when logging back in to your server.",
+        "overview": "Blazing fast indexing for Infuse",
         "owner": "Firecore LLC",
-        "packageId": 21,
-        "previewImage": "",
-        "price": 0.0,
-        "regInfo": "",
-        "richDescUrl": "",
-        "shortDescription": "Blazing fast indexing for Infuse",
-        "targetSystem": "Server",
-        "thumbImage": "",
-        "titleColor": "#FFFFFF",
-        "totalRatings": 1,
-        "type": "UserInstalled",
+        "imageUrl": "https://raw.githubusercontent.com/firecore/InfuseSync/master/InfuseSync/thumb.png",
+        "category": "General",
         "versions": [
             {
-                "checksum": "63a6b49d8930edbe9c3bc4151fae0712",
-                "classification": "Release",
-                "description": "Release",
-                "name": "InfuseSync",
-                "requiredVersionStr": "10.5.5",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/infusesync/InfuseSync-jellyfin-1.1.1.zip",
-                "targetFilename": "InfuseSync-jellyfin-1.1.1.zip",
-                "timestamp": "2020-07-17 12:26:00",
-                "versionStr": "1.1.1"
+                "version": "1.4.2.0",
+                "changelog": "Added support for Jellyfin 10.8.\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.4.2/InfuseSync-jellyfin-1.4.2.zip",
+                "checksum": "4f3188f705028682df87a7beb9d606d5",
+                "timestamp": "2022-04-12T04:00:00Z"
             },
             {
-                "checksum": "3cc39fe65ff91f13b515ec5692c9bf30",
-                "classification": "Release",
-                "description": "Release",
-                "name": "InfuseSync",
-                "requiredVersionStr": "10.5.5",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/infusesync/InfuseSync-jellyfin-1.0.8.zip",
-                "targetFilename": "InfuseSync-jellyfin-1.0.8.zip",
-                "timestamp": "2020-07-10 14:43:00",
-                "versionStr": "1.0.8"
-            },                
+                "version": "1.4.1.0",
+                "changelog": "Added support for libraries with shared network folders for non-admin users.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.4.1/InfuseSync-jellyfin-1.4.1.zip",
+                "checksum": "fece6cb4736503a325592bcee3aea56a",
+                "timestamp": "2021-10-22T06:42:00Z"
+            },
             {
-                "checksum": "7539c9011b98da4924ecd03803fc40e9",
-                "classification": "Release",
-                "description": "Release",
-                "name": "InfuseSync",
-                "requiredVersionStr": "10.5.5",
-                "runtimes": "netframework,netcore",
-                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/infusesync/InfuseSync-jellyfin-1.0.7.zip",
-                "targetFilename": "InfuseSync-jellyfin-1.0.7.zip",
-                "timestamp": "2020-07-03 12:53:00",
-                "versionStr": "1.0.7"
+                "version": "1.3.3.0",
+                "changelog": "Jellyfin 10.7.0 support, packaging fix.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.3.3/InfuseSync-jellyfin-1.3.3.zip",
+                "checksum": "e9262894968407f15fc2d92375de8483",
+                "timestamp": "2021-03-17T06:42:00Z"
+            },
+            {
+                "version": "1.3.2.0",
+                "changelog": "Jellyfin 10.7.0 support, fixes for Jellyfin endpoints and authorization.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/infusesync/InfuseSync-jellyfin-1.3.2.zip",
+                "checksum": "520ffde8b075070cff5185d7453485a0",
+                "timestamp": "2021-01-05T08:00:00Z"
+            },
+            {
+                "version": "1.2.4.0",
+                "changelog": "New Playlist support.\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.4/InfuseSync-jellyfin-1.2.4.zip",
+                "checksum": "7adde11b8c8404fd2923f59d98fb1a30",
+                "timestamp": "2020-10-12T08:00:00Z"
+            },
+            {
+                "version": "1.2.1.3",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.3/InfuseSync-jellyfin-1.2.3.zip",
+                "checksum": "d8e2c5fe736a302097bb3bac3d04b1c4",
+                "timestamp": "2020-09-18T12:19:00Z"
+            },
+            {
+                "version": "1.2.1.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.1/InfuseSync-jellyfin-1.2.1.zip",
+                "checksum": "1a853e926cc422f5d79d398d9ae18ee8",
+                "timestamp": "2020-08-21T10:48:00Z"
+            },
+            {
+                "version": "1.2.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://github.com/firecore/InfuseSync/releases/download/v1.2.0/InfuseSync-jellyfin-1.2.0.zip",
+                "checksum": "2d3c7859852695a7f05adc6d3fcbc783",
+                "timestamp": "2020-07-20T11:51:00Z"
             }
         ]
-    } 
+    },
+    {
+        "guid": "8119f3c6-cfc2-4d9c-a0ba-028f1d93e526",
+        "name": "Cover Art Archive",
+        "description": "This plugin provides images from the Cover Art Archive https://musicbrainz.org/doc/Cover_Art_Archive and depends on the MusicBrainz metadata provider to know what images belong where\n",
+        "overview": "MusicBrainz Cover Art Archive",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-coverartarchive.png",
+        "versions": [
+            {
+                "version": "7.0.0.0",
+                "changelog": "### Bug Fixes ###\n- fix client string (#19) @Shadowghost\n\n### Code or Repo Maintenance ###\n- Fix readme (#20) @Shadowghost",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_7.0.0.0.zip",
+                "checksum": "005e308e111b3b3b068e67c9ec6c6e1e",
+                "timestamp": "2022-01-08T17:22:30Z"
+            },
+            {
+                "version": "6.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix contact uri (#17) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_6.0.0.0.zip",
+                "checksum": "b4d5687142ae4210d43262ae6d9d92c7",
+                "timestamp": "2022-01-08T11:43:13Z"
+            },
+            {
+                "version": "5.0.0.0",
+                "changelog": "### Major features and improvements ###\n- Remove configuration page and migrate to MetaBrainz.MusicBrainz.CoverArt (#12) @MrTimscampi\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#14) @dependabot",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_5.0.0.0.zip",
+                "checksum": "ccc0878e5fc9b03cd1d828f74fe91ead",
+                "timestamp": "2022-01-07T21:16:19Z"
+            },
+            {
+                "version": "4.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#13) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_4.0.0.0.zip",
+                "checksum": "4dccac26c6470cebc25cb8d6e4201b4d",
+                "timestamp": "2021-11-01T20:57:28Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "### New features and improvements ###\n- chore: plugin images (#5) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#4) @dependabot\n\n### CI & build changes ###\n- Update ci (#9) @h1dden-da3m0n\n- Create release prep PR on release draft update (#7) @oddstr13\n- Add analyzers and remove all warnings (#3) @crobibero\n- Let there be CI (#2) @oddstr13",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_3.0.0.0.zip",
+                "checksum": "ca0ae1e2575cae9cb8d9f0164b8ab92c",
+                "timestamp": "2021-07-28T20:36:41Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "changelog\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_2.0.0.0.zip",
+                "checksum": "bea8fa4a37b3e7ed74e22266e7597a68",
+                "timestamp": "2020-12-06T02:51:03Z"
+            },
+            {
+                "version": "1.0.0.3",
+                "changelog": "changelog\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/cover-art-archive/cover-art-archive_1.0.0.3.zip",
+                "checksum": "c502a5c54b168810614c1c40709b9598",
+                "timestamp": "2020-08-06T21:21:22Z"
+            }
+        ]
+    },
+    {
+        "guid": "a677c0da-fac5-4cde-941a-7134223f14c8",
+        "name": "TheTVDB",
+        "description": "Get TV metadata from TheTvdb\n",
+        "overview": "Get TV metadata from TheTvdb",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvdb.png",
+        "versions": [
+            {
+                "version": "10.0.0.0",
+                "changelog": "- Reduce log noise (#85) @IDisposable\n- Enriched Logging with series name (#84) @JPVenson\n\n### New features and improvements ###\n- Combine Title and Overview of combined episodes. (#86) @haydenstith",
+                "targetAbi": "10.8.10.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_10.0.0.0.zip",
+                "checksum": "e01c639fcbe9a5c3e76944819a8bb66d",
+                "timestamp": "2023-06-19T20:21:14Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix GetAllEpisodes breaking library scan on missing Episode Data (#83) @Hayajiro\n\n### Code or Repo Maintenance ###\n- Use meta ci (#67) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#72) @h1dden-da3m0n\n- Use meta ci (#67) @crobibero",
+                "targetAbi": "10.8.8.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_9.0.0.0.zip",
+                "checksum": "0d2585a599b2a0deb0c614577bc3a175",
+                "timestamp": "2023-01-16T03:36:51Z"
+            },
+            {
+                "version": "8.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Use BaseItemKind (#59) @crobibero\n- update ruleset (#55) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#54) @dependabot",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_8.0.0.0.zip",
+                "checksum": "5b9ee28119c60dffeff67952d67ba67a",
+                "timestamp": "2022-01-08T17:25:42Z"
+            },
+            {
+                "version": "7.0.0.0",
+                "changelog": "- 10.8 support (#52) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_7.0.0.0.zip",
+                "checksum": "7ae213ac5c4d86ee968a0b7c69755393",
+                "timestamp": "2021-11-01T21:04:06Z"
+            },
+            {
+                "version": "6.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Changed NormalizationForm to FormC (#45) @sushilicious\n\n### CI & build changes ###\n- Update ci (#42) @h1dden-da3m0n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_6.0.0.0.zip",
+                "checksum": "0d2bcfa13da7e10efa8874b445f92ba6",
+                "timestamp": "2021-08-07T21:24:50Z"
+            },
+            {
+                "version": "5.0.0.0",
+                "changelog": "* fix catching exceptions\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_5.0.0.0.zip",
+                "checksum": "ad07e5890042799642e4056ebf5620c0",
+                "timestamp": "2021-05-14T12:01:21Z"
+            },
+            {
+                "version": "4.0.0.0",
+                "changelog": "Fix getting metadata\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_4.0.0.0.zip",
+                "checksum": "97e82c193bf8c70c28158bdd4abb638d",
+                "timestamp": "2021-04-18T19:10:58Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "Fix getting metadata",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_3.0.0.0.zip",
+                "checksum": "108bb40691f7b08ebd28f78afd7d196f",
+                "timestamp": "2021-03-11T05:41:03Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_2.0.0.0.zip",
+                "checksum": "e46cee334476a1b475e5c553171c4cb6",
+                "timestamp": "2020-12-16T20:03:28Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "Remove from Jellyfin core.\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/thetvdb/thetvdb_1.0.0.0.zip",
+                "checksum": "5a3dca5c0db4824d83bfd4e7e2b7bf11",
+                "timestamp": "2020-12-06T02:56:40Z"
+            }
+        ]
+    },
+    {
+        "guid": "a2b2a7ed-aa28-4521-a64a-63d86901f246",
+        "name": "AniDB",
+        "description": "AniDB metadata provider\n",
+        "overview": "AniDB metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anidb.png",
+        "versions": [
+            {
+                "version": "7.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add AniDbExternalEpisodeId (#32) @Nalsai\n- Add support for \"Mahoutsukai\" and fix \"Gekijyouban\" (#31) @Nalsai\n\n### Bug Fixes ###\n- Fix automatically detecting Movies (#38) @Nalsai\n- Add support for \"Mahoutsukai\" and fix \"Gekijyouban\" (#31) @Nalsai\n\n### CI & build changes ###\n- fix: meta ci workflows (#35) @h1dden-da3m0n",
+                "targetAbi": "10.8.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_7.0.0.0.zip",
+                "checksum": "91be4332cc5ab9705574379560a60600",
+                "timestamp": "2022-07-09T15:23:50Z"
+            },
+            {
+                "version": "6.0.0.0",
+                "changelog": "- Fix episode metadata & improve series metadata (#29) @Nalsai\n\n### New features and improvements ###\n- Add original title metadata (#26) @Nalsai\n\n### Bug Fixes ###\n- Use proper normalization form (#19) @crobibero\n- Improve AniDB ID searching and matching (#27) @Nalsai\n\n### Code or Repo Maintenance ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#15) @dependabot\n- Improve AniDB ID searching and matching (#27) @Nalsai\n- Use meta ci (#30) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#15) @dependabot\n\n### CI & build changes ###\n- Use meta ci (#30) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_6.0.0.0.zip",
+                "checksum": "921e7e417e97f60c6d275d0373add6a0",
+                "timestamp": "2022-03-28T00:00:21Z"
+            },
+            {
+                "version": "5.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#13) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_5.0.0.0.zip",
+                "checksum": "8bcfbf425f9c2d4c6f38edb8c4f05377",
+                "timestamp": "2022-01-08T17:20:54Z"
+            },
+            {
+                "version": "4.0.0.0",
+                "changelog": "### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#8) @dependabot\n\n### CI & build changes ###\n- Update ci (#10) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- chore: plugin images (#9) @h1dden-da3m0n",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_4.0.0.0.zip",
+                "checksum": "e8957962ec6d3a3e811b1804c608b294",
+                "timestamp": "2021-09-07T21:31:08Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "* Explicit decompress no longer needed (#4) @oddstr13 * Let there be CI (#3) @oddstr13\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_3.0.0.0.zip",
+                "checksum": "574104cf6f64989214dbc1680861fa71",
+                "timestamp": "2021-03-12T23:32:20Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anidb/anidb_2.0.0.0.zip",
+                "checksum": "9b69500943308d01e0e2e97432343468",
+                "timestamp": "2021-03-10T19:43:49Z"
+            }
+        ]
+    },
+    {
+        "guid": "1bd22884-44be-40f3-ad95-fc4a7834ba2c",
+        "name": "AniList",
+        "description": "AniList metadata provider\n",
+        "overview": "AniList metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anilist.png",
+        "versions": [
+            {
+                "version": "7.0.0.0",
+                "changelog": "- Revert dotnet7 update (#46) @crobibero\n\n### New features and improvements ###\n- Optionally use the AnitomySharp library to extract media titles (#9) @MisterMcDuck\n- Change banner to backdrop (#37) @nielsvanvelzen\n\n### Bug Fixes ###\n- Filter out non-japanese VAs for romaji titles (#40) @rzk3\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#44) @methbkts\n- Use meta ci (#25) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dotnet monorepo to v7 (major) (#35) @renovate\n- chore(deps): update dependency microsoft.extensions.dependencyinjection to v6.0.0 (#30) @renovate\n- chore(deps): update dependency microsoft.extensions.http to v6 (#31) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#29) @h1dden-da3m0n\n- Use meta ci (#25) @crobibero",
+                "targetAbi": "10.8.12.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_7.0.0.0.zip",
+                "checksum": "1c24a09ad615c9acad760574c1e21cfa",
+                "timestamp": "2023-11-10T02:31:13Z"
+            },
+            {
+                "version": "6.0.0.0",
+                "changelog": "### New features and improvements ###\n- Optionally use the AnitomySharp library to extract media titles (#9) @MisterMcDuck\n- Change banner to backdrop (#37) @nielsvanvelzen\n\n### Bug Fixes ###\n- Filter out non-japanese VAs for romaji titles (#40) @rzk3\n\n### Code or Repo Maintenance ###\n- Update link to Jellyfin website (#44) @methbkts\n- Use meta ci (#25) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dotnet monorepo to v7 (major) (#35) @renovate\n- chore(deps): update dependency microsoft.extensions.dependencyinjection to v6.0.0 (#30) @renovate\n- chore(deps): update dependency microsoft.extensions.http to v6 (#31) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#29) @h1dden-da3m0n\n- Use meta ci (#25) @crobibero",
+                "targetAbi": "10.8.12.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_6.0.0.0.zip",
+                "checksum": "2038e03fd92e877095be82839ee268e4",
+                "timestamp": "2023-11-09T01:10:28Z"
+            },
+            {
+                "version": "5.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#18) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_5.0.0.0.zip",
+                "checksum": "e9cac399791004a163eec2aeb5a4d11b",
+                "timestamp": "2022-01-08T17:21:07Z"
+            },
+            {
+                "version": "4.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix Genre settings (#15) @CommandStorm5\n\n### CI & build changes ###\n- ci: set ABI version and more repo automation (#17) @h1dden-da3m0n",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_4.0.0.0.zip",
+                "checksum": "0c9335b5ac2c873473446ef5ab91b2be",
+                "timestamp": "2021-09-21T20:16:23Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add original title preference option (#7) @robertgzr\n- Add native Japanese title to the original title field (#4) @ayyu\n- Add option to hide tags that are marked as spoilers (#5) @sqlstatement\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#6) @dependabot\n\n### CI & build changes ###\n- Update ci (#11) @h1dden-da3m0n\n- Let there be CI (#3) @oddstr13\n\n### Code or Repo Maintenance ###\n- chore: plugin images (#8) @h1dden-da3m0n",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_3.0.0.0.zip",
+                "checksum": "276831fbfb1c12f60feb978e74384157",
+                "timestamp": "2021-09-07T21:33:18Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "- Split out from the Anime plugin - Unpin patch version of DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anilist/anilist_2.0.0.0.zip",
+                "checksum": "3d3ab2231231e981f42f46745dd4a3fd",
+                "timestamp": "2021-03-10T19:47:04Z"
+            }
+        ]
+    },
+    {
+        "guid": "776d9158-b91f-49d9-82c5-dacce63d63b8",
+        "name": "AniSearch",
+        "description": "AniSearch metadata provider\n",
+        "overview": "AniSearch metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anisearch.png",
+        "versions": [
+            {
+                "version": "4.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#7) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anisearch/anisearch_4.0.0.0.zip",
+                "checksum": "f4296b98d7cadd0f0d42f9c7ca63fba4",
+                "timestamp": "2022-01-08T17:21:39Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#3) @dependabot\n\n### CI & build changes ###\n- Update ci (#5) @h1dden-da3m0n\n- Let there be CI (#2) @oddstr13\n\n### Code or Repo Maintenance ###\n- chore: plugin images (#4) @h1dden-da3m0n",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anisearch/anisearch_3.0.0.0.zip",
+                "checksum": "de566977fe80a8d75475b7de937c8734",
+                "timestamp": "2021-09-07T21:31:55Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "- Split out from the Anime plugin - Remove dependency on DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/anisearch/anisearch_2.0.0.0.zip",
+                "checksum": "761b4c98926541c79ed2d24be04f4a1f",
+                "timestamp": "2021-03-10T19:54:53Z"
+            }
+        ]
+    },
+    {
+        "guid": "88d809e2-056b-47f4-9911-073949b9963f",
+        "name": "Kitsu",
+        "description": "Kitsu metadata provider\n",
+        "overview": "Kitsu metadata provider",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kitsu.png",
+        "versions": [
+            {
+                "version": "4.0.0.0",
+                "changelog": "### New features and improvements ###\n- Added Series/Episode Image Providers (#22) @pikami\n- Get episode metadata from seriesId+episodeNumber instead of provider episode id (#21) @pikami\n- Add support for identifying using kitsu id (#23) @pikami\n\n### Bug Fixes ###\n- Round community rating to single decimal place (#18) @pikami\n\n### CI & build changes ###\n- fix: meta ci workflows (#17) @h1dden-da3m0n\n- Use meta ci (#14) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kitsu/kitsu_4.0.0.0.zip",
+                "checksum": "17ba01c1c0fe1c5a8ca2b84410407b82",
+                "timestamp": "2022-06-13T22:15:32Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "### New features and improvements ###\n- chore: plugin images (#5) @h1dden-da3m0n\n\n### Dependency updates ###\n- chore(deps): bump release-drafter/release-drafter from v5.14.0 to v5.15.0 (#4) @dependabot\n\n### CI & build changes ###\n- Update ci (#6) @h1dden-da3m0n\n- Let there be CI (#2) @oddstr13\n\n### Code or Repo Maintenance ###\n- 10.8 support (#9) @crobibero\n\n### Documentation updates ###\n- chore(doc): doc and editorconf update (#3) @h1dden-da3m0n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kitsu/kitsu_3.0.0.0.zip",
+                "checksum": "97bffe423d3f090db13f086f204c807c",
+                "timestamp": "2022-01-08T17:22:57Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "- Split out from the Anime plugin - Remove dependency on DependencyInjection\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/kitsu/kitsu_2.0.0.0.zip",
+                "checksum": "0989ef4483639edb9a4ec266905f386a",
+                "timestamp": "2021-03-10T20:00:06Z"
+            }
+        ]
+    },
+    {
+        "guid": "a4a488d0-17a3-4919-8d82-7f3de4f6b209",
+        "name": "TVmaze",
+        "description": "Get TV metadata from TVmaze\n",
+        "overview": "Get TV metadata from TVmaze",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-tvmaze.png",
+        "versions": [
+            {
+                "version": "10.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Fix build (#36) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump Microsoft.Extensions.Http from 5.0.0 to 6.0.0 (#33) @dependabot",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvmaze/tvmaze_10.0.0.0.zip",
+                "checksum": "7a1bb4eccc01169f9bf31e5276c8d61e",
+                "timestamp": "2022-01-08T17:26:09Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "### Bug Fixes ###\n- tv-maze -> tvmaze in release-drafter config (#28) @oddstr13\n\n### Code or Repo Maintenance ###\n- 10.8 support (#32) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvmaze/tvmaze_9.0.0.0.zip",
+                "checksum": "2fa1bbe23392945f56f8ed716c8bb932",
+                "timestamp": "2021-11-01T21:04:34Z"
+            },
+            {
+                "version": "8.0.0.0",
+                "changelog": "- chore(deps): bump TvMaze.Api.Client from 0.1.71 to 0.1.72 (#21) @dependabot\n\n### CI & build changes ###\n- Update ci (#24) @h1dden-da3m0n\n\n### Code or Repo Maintenance ###\n- chore: plugin images (#22) @h1dden-da3m0n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvmaze/tvmaze_8.0.0.0.zip",
+                "checksum": "cd7944e30bd7e6237279cb8458777fc0",
+                "timestamp": "2021-09-06T17:25:48Z"
+            },
+            {
+                "version": "7.0.0.0",
+                "changelog": "Update api client\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tvmaze/tvmaze_7.0.0.0.zip",
+                "checksum": "01454308f6db571b1db6017394789108",
+                "timestamp": "2021-04-12T20:38:30Z"
+            },
+            {
+                "version": "5.0.0.0",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_5.0.0.0.zip",
+                "checksum": "509a85e40b1d1ac36eef45673deaf606",
+                "timestamp": "2020-12-06T02:51:56Z"
+            },
+            {
+                "version": "4.0.0.0",
+                "changelog": "Get additional image types\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_4.0.0.0.zip",
+                "checksum": "58ee9ab3f129151bdfff033ad889ad87",
+                "timestamp": "2020-11-24T14:44:37Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "Remove unused dependencies \n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_3.0.0.0.zip",
+                "checksum": "f3b2c70b3e136fb15c917e4420f4fdec",
+                "timestamp": "2020-11-09T14:32:56Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "Remove unused dependencies \n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_2.0.0.0.zip",
+                "checksum": "c7662ae8ae52ce8a4e8d685d55f36e80",
+                "timestamp": "2020-11-09T02:33:11Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "Initial release.\n",
+                "targetAbi": "10.6.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/tv-maze/tv-maze_1.0.0.0.zip",
+                "checksum": "c90eee48c12f2c07880b4b28e507fd14",
+                "timestamp": "2020-11-08T19:05:32Z"
+            }
+        ]
+    },
+    {
+        "guid": "71552a5a-5c5c-4350-a2ae-ebe451a30173",
+        "name": "Webhook",
+        "description": "Sends notifications to destinations via webhooks.\n",
+        "overview": "Sends notifications.",
+        "owner": "jellyfin",
+        "category": "Notifications",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-webhook.png",
+        "versions": [
+            {
+                "version": "11.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_11.0.0.0.zip",
+                "checksum": "adcd796f3c83498a3577c1f6380324e3",
+                "timestamp": "2022-03-28T00:08:01Z"
+            },
+            {
+                "version": "10.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Pull correct ServerName (#85) @crobibero\n\n### Code or Repo Maintenance ###\n- Update ruleset, fix new warnings (#82) @crobibero\n\n### Dependency updates ###\n- chore(deps): update Microsoft.Extensions.Http requirement from 5.* to 6.* (#80) @dependabot\n- chore(deps): bump Handlebars.Net from 2.0.9 to 2.0.10 (#92) @dependabot\n- chore(deps): bump MailKit from 2.15.0 to 3.0.0 (#91) @dependabot",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_10.0.0.0.zip",
+                "checksum": "51de0e95b9c74c17cccd9f81c0674780",
+                "timestamp": "2022-01-08T17:26:30Z"
+            },
+            {
+                "version": "9.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Don't filter on userId for UserCreated notification type (#76) @crobibero\n\n### Code or Repo Maintenance ###\n- Fix CI (#79) @crobibero\n- 10.8 support (#69) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_9.0.0.0.zip",
+                "checksum": "7346b010d59f3833b5f5920ab503063c",
+                "timestamp": "2021-11-01T14:32:52Z"
+            },
+            {
+                "version": "8.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add UserDataSaved event handler (#70) @crobibero",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_8.0.0.0.zip",
+                "checksum": "8a84683a9b52090229b2da2dabcd3d91",
+                "timestamp": "2021-09-27T01:38:21Z"
+            },
+            {
+                "version": "7.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add tagline as available parameter (#68) @crobibero\n- Add Form Post support (#65) @crobibero\n\n### Bug Fixes ###\n- Fix Discord.handlebars template (#66) @crobibero\n- Fix string conversion for unbound properties (#62) @crobibero",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_7.0.0.0.zip",
+                "checksum": "8d0a350aa9cd4fcc7f25cadcc0406286",
+                "timestamp": "2021-09-16T20:39:37Z"
+            },
+            {
+                "version": "6.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix string conversion in HandlebarsFunctionHelpers (#61) @crobibero\n- Actually fix sending username (#58) @crobibero",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_6.0.0.0.zip",
+                "checksum": "778537d266aaa8b453398e6fcf21ae3b",
+                "timestamp": "2021-09-15T11:44:50Z"
+            },
+            {
+                "version": "5.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Update Username parameter to be NotificationUsername (#57) @crobibero\n\n### CI & build changes ###\n- ci: set ABI version and more repo automation (#52) @h1dden-da3m0n",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_5.0.0.0.zip",
+                "checksum": "d09416808acd1b47e1efefdde36cebc8",
+                "timestamp": "2021-09-14T00:18:12Z"
+            },
+            {
+                "version": "4.0.0.0",
+                "changelog": "- Update ci (#42) @h1dden-da3m0n\n\n### New features and improvements ###\n- Improve HTTP Request Error Logging (#51) @mark-monteiro\n\n### Bug Fixes ###\n- Fix loading of selected media types (#46) @crobibero\n\n### Dependency updates ###\n- chore(deps): bump MailKit from 2.14.0 to 2.15.0 (#50) @dependabot\n- chore(deps): bump Handlebars.Net from 2.0.8 to 2.0.9 (#49) @dependabot\n- chore(deps): bump MailKit from 2.13.0 to 2.14.0 (#48) @dependabot\n\n### Code or Repo Maintenance ###\n- chore(deps): bump MailKit from 2.14.0 to 2.15.0 (#50) @dependabot\n- chore(deps): bump Handlebars.Net from 2.0.8 to 2.0.9 (#49) @dependabot\n- chore(deps): bump MailKit from 2.13.0 to 2.14.0 (#48) @dependabot",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_4.0.0.0.zip",
+                "checksum": "37a37b69fab5ccd8181a8c4af8d5dc7b",
+                "timestamp": "2021-08-30T11:30:18Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "- No changes",
+                "targetAbi": "10.7.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/webhook/webhook_3.0.0.0.zip",
+                "checksum": "ad3b18dd68bedf4c49b634d630eb3146",
+                "timestamp": "2021-07-10T02:06:09Z"
+            }
+        ]
+    },
+    {
+        "guid": "f30880ae-3365-449e-b9e6-bf133c8401b0",
+        "name": "OPDS",
+        "description": "Provides an OPDS feed for book browsing.\n",
+        "overview": "Provides an OPDS book feed",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-opds.png",
+        "versions": [
+            {
+                "version": "4.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add WWW-Authenticate header to unauthorized response (#14) @crobibero\n- Add Favorites, RecentlyAdded (#12) @crobibero\n\n### CI & build changes ###\n- ci: migrate to centralized Plugin CI workflows (#15) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/opds/opds_4.0.0.0.zip",
+                "checksum": "43b7de66b3352c17b4e120ce4ef47411",
+                "timestamp": "2022-02-27T22:02:50Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "### New features and improvements ###\n- Add Genre search (#9) @crobibero\n- Use Request.PathBase to get actual baseUrl (#8) @crobibero\n\n### Code or Repo Maintenance ###\n- Use BaseItemKind (#10) @crobibero\n- Update ruleset, fix build, fix ordering (#3) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/opds/opds_3.0.0.0.zip",
+                "checksum": "d1677ceedf02785cd67d497d158aca1a",
+                "timestamp": "2022-01-08T17:24:12Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "### Code or Repo Maintenance ###\n- 10.8 support (#1) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/opds/opds_2.0.0.0.zip",
+                "checksum": "2ee42cc03d0e4f754fabb1321b005a5a",
+                "timestamp": "2021-11-01T20:51:30Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "",
+                "targetAbi": "10.7.7.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/opds/opds_1.0.0.0.zip",
+                "checksum": "717b7a03366af88d39a987610406cfb5",
+                "timestamp": "2021-09-20T23:41:41Z"
+            }
+        ]
+    },
+    {
+        "guid": "ec9e2a74-1311-4a14-b302-158e3d95fd1d",
+        "name": "Session Cleaner",
+        "description": "Removes old sessions (devices).\n",
+        "overview": "Removes old sessions (devices).",
+        "owner": "crobibero",
+        "category": "General",
+        "versions": [
+            {
+                "version": "2.0.0.0",
+                "changelog": "10.8 support\n",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/session-cleaner/session-cleaner_2.0.0.0.zip",
+                "checksum": "4dcc754c5d93782a8549422f222425c5",
+                "timestamp": "2022-03-27T20:37:51Z"
+            }
+        ]
+    },
+    {
+        "guid": "44616595-5798-47ad-8658-3c09f3030505",
+        "name": "VGMdb",
+        "description": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.\n",
+        "overview": "Adds support for VGMdb to music libraries. Can provide both images and metadata for artists and albums.",
+        "owner": "jellyfin",
+        "category": "Metadata",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-vgmdb.png",
+        "versions": [
+            {
+                "version": "3.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix double slash in API URL's causing the plugin to never work (#20) @nielsvanvelzen\n\n### Dependency updates ###\n- chore(deps): update dependency stylecop.analyzers to v1.2.0-beta.435 (#15) @renovate\n\n### CI & build changes ###\n- fix: meta ci workflows (#13) @h1dden-da3m0n",
+                "targetAbi": "10.8.13.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/vgmdb/vgmdb_3.0.0.0.zip",
+                "checksum": "98833a260b7a90e992248659f492e59a",
+                "timestamp": "2023-12-21T21:44:35Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "- chore(deps): bump StyleCop.Analyzers from 1.2.0-beta.376 to 1.2.0-beta.406 (#11) @dependabot\n- Use meta ci (#8) @crobibero\n\n### Code or Repo Maintenance ###\n- Clean up folder structure, remove warnings (#9) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/vgmdb/vgmdb_2.0.0.0.zip",
+                "checksum": "7543fe69a7701abe645c8590d5b92e2f",
+                "timestamp": "2022-03-27T21:08:11Z"
+            }
+        ]
+    },
+    {
+        "guid": "07caef58-a94b-4211-a62c-f9774e04ebdb",
+        "name": "Simkl",
+        "description": "Scrobble your watched Movies, TV Shows and Anime to Simkl and share your progress with friends!\n",
+        "overview": "Scrobble to Simkl",
+        "owner": "crobibero",
+        "category": "General",
+        "versions": [
+            {
+                "version": "4.0.0.0",
+                "changelog": "### New features and improvements ###\n- fixed json case + added episode ids + empty response error (#25) @ekleop\n\n### Bug Fixes ###\n- fixed json case + added episode ids + empty response error (#25) @ekleop",
+                "targetAbi": "10.8.11.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/simkl/simkl_4.0.0.0.zip",
+                "checksum": "c6c6420ac5a2fe62a119af7142b6f651",
+                "timestamp": "2023-11-21T14:20:46Z"
+            },
+            {
+                "version": "3.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix auth against Simkl api (#17) @crobibero\n\n### CI & build changes ###\n- fix: meta ci workflows (#15) @h1dden-da3m0n",
+                "targetAbi": "10.8.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/simkl/simkl_3.0.0.0.zip",
+                "checksum": "5a2f9b5ddc2023809780bae3a2dc3e62",
+                "timestamp": "2022-07-05T08:03:01Z"
+            },
+            {
+                "version": "2.0.0.0",
+                "changelog": "- Use meta ci (#10) @crobibero\n- 10.8 support (#5) @crobibero",
+                "targetAbi": "10.8.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/simkl/simkl_2.0.0.0.zip",
+                "checksum": "c3092a2b46487fa1e3ec16e47c6df60a",
+                "timestamp": "2022-03-28T00:06:17Z"
+            }
+        ]
+    },
+    {
+        "guid": "cd893c24-b59e-4060-87b2-184070e1bf68",
+        "name": "Subtitle Extract",
+        "description": "Extracts embedded subtitles.\n",
+        "overview": "Extracts Subtitles.",
+        "owner": "jellyfin",
+        "category": "General",
+        "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-subtitleextract.png",
+        "versions": [
+            {
+                "version": "2.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Catch exception when extracting (#1) @crobibero",
+                "targetAbi": "10.8.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/subtitle-extract/subtitle-extract_2.0.0.0.zip",
+                "checksum": "8a4a41cc8462d67e5f9df7a96c3ce711",
+                "timestamp": "2022-09-12T22:53:29Z"
+            },
+            {
+                "version": "1.0.0.0",
+                "changelog": "",
+                "targetAbi": "10.8.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/releases/plugin/subtitle-extract/subtitle-extract_1.0.0.0.zip",
+                "checksum": "74ff9ab8f7936c43d591d3c071458d60",
+                "timestamp": "2022-09-08T04:43:17Z"
+            }
+        ]
+    }
 ]
