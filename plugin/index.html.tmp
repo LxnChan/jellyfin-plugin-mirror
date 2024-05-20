@@ -3,7 +3,7 @@
 <body>
 <h1>Index of /releases/plugin/</h1><hr><pre><a href="https://repo.jellyfin.org/releases/">../</a>
 <a href="anidb/index.html.tmp">anidb/</a>                                             11-May-2024 19:36                   -
-<a href="anilist/index.html.tmp">anilist/</a>                                           11-May-2024 20:26                   -
+<a href="anilist/index.html.tmp">anilist/</a>                                           13-May-2024 13:24                   -
 <a href="anisearch/index.html.tmp">anisearch/</a>                                         11-May-2024 19:37                   -
 <a href="artwork/index.html.tmp">artwork/</a>                                           11-May-2024 19:35                   -
 <a href="bookshelf/index.html.tmp">bookshelf/</a>                                         11-May-2024 19:23                   -
@@ -15,7 +15,7 @@
 <a href="imvdb/index.html.tmp">imvdb/</a>                                             11-May-2024 19:35                   -
 <a href="infusesync/index.html.tmp">infusesync/</a>                                        09-Mar-2021 05:46                   -
 <a href="kitsu/index.html.tmp">kitsu/</a>                                             11-May-2024 19:36                   -
-<a href="kodi-sync-queue/index.html.tmp">kodi-sync-queue/</a>                                   11-May-2024 19:44                   -
+<a href="kodi-sync-queue/index.html.tmp">kodi-sync-queue/</a>                                   15-May-2024 13:27                   -
 <a href="ldap-authentication/index.html.tmp">ldap-authentication/</a>                               11-May-2024 19:30                   -
 <a href="local-intros/index.html.tmp">local-intros/</a>                                      11-May-2024 19:59                   -
 <a href="nextpvr/index.html.tmp">nextpvr/</a>                                           11-May-2023 07:06                   -
@@ -34,8 +34,8 @@
 <a href="tvheadend/index.html.tmp">tvheadend/</a>                                         11-May-2023 07:06                   -
 <a href="tvmaze/index.html.tmp">tvmaze/</a>                                            11-May-2024 19:37                   -
 <a href="vgmdb/index.html.tmp">vgmdb/</a>                                             11-May-2024 19:37                   -
-<a href="webhook/index.html.tmp">webhook/</a>                                           11-May-2024 19:16                   -
-<a href="manifest-stable.json">manifest-stable.json</a>                               12-May-2024 19:49              117947
-<a href="manifest.json">manifest.json</a>                                      12-May-2024 19:49              117947
+<a href="webhook/index.html.tmp">webhook/</a>                                           17-May-2024 16:51                   -
+<a href="manifest-stable.json">manifest-stable.json</a>                               17-May-2024 16:51              120102
+<a href="manifest.json">manifest.json</a>                                      17-May-2024 16:51              120102
 </pre><hr></body>
 </html>

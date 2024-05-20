@@ -177,6 +177,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-kodisyncqueue.png",
         "versions": [
             {
+                "version": "11.0.0.0",
+                "changelog": "- Downgrade LiteDB to 5.0.15 (#85) @oddstr13",
+                "targetAbi": "10.9.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/kodi-sync-queue/kodi-sync-queue_11.0.0.0.zip",
+                "checksum": "85e7c0ec3517841a302056b3f1210a29",
+                "timestamp": "2024-05-15T13:26:45Z"
+            },
+            {
                 "version": "10.0.0.0",
                 "changelog": "- 10.9 (#82) @crobibero\n\n### New features and improvements ###\n- Implement IDisposable (#75) @crobibero\n\n### Documentation updates ###\n- Fix openapi generation issues (#81) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency litedb to v5.0.19 (#78) @renovate",
                 "targetAbi": "10.9.0.0",
@@ -1191,6 +1199,14 @@
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-anilist.png",
         "versions": [
             {
+                "version": "9.0.0.0",
+                "changelog": "- Limit amount of people in metadata search result (#68) @AkaTenshi\n- Feature: Decouples VA filter from the title language, and moves to the new Anilist StaffLanguage API key (#65) @mmshivesh\n\n### Dependency updates ###\n- Update dependency AnitomySharp.NET6 to v0.5.1 (#64) @renovate",
+                "targetAbi": "10.9.0.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/anilist/anilist_9.0.0.0.zip",
+                "checksum": "ab3635512a988b02e01f8f3e8ac5aa35",
+                "timestamp": "2024-05-13T13:24:15Z"
+            },
+            {
                 "version": "8.0.0.0",
                 "changelog": "- force change for 10.9 (#62) @crobibero\n- Unstable (#61) @crobibero\n\n### Bug Fixes ###\n- Fix genre settings not being applied to movies (#52) @HansLehnert",
                 "targetAbi": "10.9.0.0",
@@ -1434,6 +1450,22 @@
         "category": "Notifications",
         "imageUrl": "https://repo.jellyfin.org/releases/plugin/images/jellyfin-plugin-webhook.png",
         "versions": [
+            {
+                "version": "14.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix AuthenticationFailureNotifier, AuthenticationSuccessNotifier (#238) @crobibero\n- Actually register hosted services (#233) @crobibero\n\n### Dependency updates ###\n- chore(deps): update dependency mqttnet.extensions.managedclient to v4.3.4.1084 (#187) @renovate",
+                "targetAbi": "10.9.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_14.0.0.0.zip",
+                "checksum": "1097b179029bfc0242446efc7099f3e4",
+                "timestamp": "2024-05-17T16:51:02Z"
+            },
+            {
+                "version": "13.0.0.0",
+                "changelog": "### Bug Fixes ###\n- Fix registering helpers during plugin initialization (#230) @crobibero",
+                "targetAbi": "10.9.1.0",
+                "sourceUrl": "https://repo.jellyfin.org/files/plugin/webhook/webhook_13.0.0.0.zip",
+                "checksum": "80717245cf09947e3c1c81027fbc416c",
+                "timestamp": "2024-05-13T23:39:55Z"
+            },
             {
                 "version": "12.0.0.0",
                 "changelog": "### Code or Repo Maintenance ###\n- Fix scheduled task (#106) @crobibero\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### Dependency updates ###\n- chore(deps): bump Handlebars.Net from 2.0.10 to 2.1.0 (#101) @dependabot\n- chore(deps): bump MailKit from 3.1.0 to 3.1.1 (#102) @dependabot\n- chore(deps): bump MailKit from 3.0.0 to 3.1.0 (#95) @dependabot\n\n### CI & build changes ###\n- fix: wrong name in ci workflows (#104) @h1dden-da3m0n\n- ci: migrate to centralized Plugin CI workflows (#94) @h1dden-da3m0n",
